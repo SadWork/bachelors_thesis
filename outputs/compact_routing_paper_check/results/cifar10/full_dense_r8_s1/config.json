@@ -1,0 +1,18 @@
+{
+  "dataset": "cifar10",
+  "ranks": [
+    8
+  ],
+  "seeds": [
+    1
+  ],
+  "methods": [
+    "full_dense"
+  ],
+  "epochs": 1200,
+  "device": "mps",
+  "torch": "2.13.0",
+  "learning_rate": 0.003,
+  "decay": 0.01,
+  "batch": 512
+}

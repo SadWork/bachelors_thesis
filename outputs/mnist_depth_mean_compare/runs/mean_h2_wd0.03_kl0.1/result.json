@@ -1,0 +1,32 @@
+{
+  "name": "mean_h2_wd0.03_kl0.1",
+  "condition": {
+    "model": "mean",
+    "hidden_layers": 2,
+    "width": 160,
+    "decay": 0.03,
+    "kl": 0.1
+  },
+  "seed": 0,
+  "epochs": 500,
+  "parameters": 153290,
+  "best_epoch": 490,
+  "validation_at_best": {
+    "accuracy": 0.949999988079071,
+    "ce": 0.1813243329524994
+  },
+  "test_at_best": {
+    "accuracy": 0.954800009727478,
+    "ce": 0.15003015100955963
+  },
+  "minimum_validation_ce": 0.18090607225894928,
+  "minimum_validation_ce_epoch": 500,
+  "validation_at_last": {
+    "accuracy": 0.948199987411499,
+    "ce": 0.18090607225894928
+  },
+  "test_at_last": {
+    "accuracy": 0.9564999938011169,
+    "ce": 0.15145300328731537
+  }
+}

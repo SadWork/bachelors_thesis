@@ -1,0 +1,8 @@
+{
+  "phase": "complete",
+  "completed": [
+    "mixture_post_r8_s2",
+    "mixture_pre_r8_s2",
+    "logit_pre_r8_s2"
+  ]
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "k": 32,
+    "examples": 500,
+    "prediction_agreement": 0.876,
+    "approximation_accuracy": 0.478,
+    "first_layer_avg_width_cap": 0.46512543845449145,
+    "first_layer_avg_width_norm": 0.7882261785243266,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.0,
+      "norm_interval": 0.0,
+      "norm_linear": 0.0,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.0
+    }
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "k": 64,
+    "examples": 500,
+    "prediction_agreement": 0.924,
+    "approximation_accuracy": 0.476,
+    "first_layer_avg_width_cap": 0.19175400696021633,
+    "first_layer_avg_width_norm": 0.31287809615976164,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.002,
+      "norm_interval": 0.0,
+      "norm_linear": 0.002,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.002
+    }
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "k": 96,
+    "examples": 500,
+    "prediction_agreement": 0.956,
+    "approximation_accuracy": 0.492,
+    "first_layer_avg_width_cap": 0.10042723873146374,
+    "first_layer_avg_width_norm": 0.15929345873161788,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.008,
+      "norm_interval": 0.0,
+      "norm_linear": 0.002,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.008
+    }
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "k": 32,
+    "examples": 500,
+    "prediction_agreement": 0.874,
+    "approximation_accuracy": 0.52,
+    "first_layer_avg_width_cap": 0.4959494354524926,
+    "first_layer_avg_width_norm": 0.8279335305615437,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.0,
+      "norm_interval": 0.0,
+      "norm_linear": 0.0,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.0
+    }
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "k": 64,
+    "examples": 500,
+    "prediction_agreement": 0.932,
+    "approximation_accuracy": 0.52,
+    "first_layer_avg_width_cap": 0.2435883312263063,
+    "first_layer_avg_width_norm": 0.3886347295965902,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.002,
+      "norm_interval": 0.0,
+      "norm_linear": 0.002,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.002
+    }
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "k": 96,
+    "examples": 500,
+    "prediction_agreement": 0.946,
+    "approximation_accuracy": 0.52,
+    "first_layer_avg_width_cap": 0.1479985333642479,
+    "first_layer_avg_width_norm": 0.2279144095255855,
+    "certified": {
+      "cap_interval": 0.002,
+      "cap_linear": 0.01,
+      "norm_interval": 0.0,
+      "norm_linear": 0.004,
+      "intersection_interval": 0.002,
+      "intersection_linear": 0.01
+    }
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "k": 32,
+    "examples": 500,
+    "prediction_agreement": 0.884,
+    "approximation_accuracy": 0.486,
+    "first_layer_avg_width_cap": 0.7024451327851939,
+    "first_layer_avg_width_norm": 1.1204993894250401,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.002,
+      "norm_interval": 0.0,
+      "norm_linear": 0.0,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.002
+    }
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "k": 64,
+    "examples": 500,
+    "prediction_agreement": 0.946,
+    "approximation_accuracy": 0.508,
+    "first_layer_avg_width_cap": 0.41979110211823756,
+    "first_layer_avg_width_norm": 0.6468684953052738,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.002,
+      "norm_interval": 0.0,
+      "norm_linear": 0.002,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.002
+    }
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "k": 96,
+    "examples": 500,
+    "prediction_agreement": 0.978,
+    "approximation_accuracy": 0.514,
+    "first_layer_avg_width_cap": 0.28788238830771745,
+    "first_layer_avg_width_norm": 0.43223712838261347,
+    "certified": {
+      "cap_interval": 0.002,
+      "cap_linear": 0.002,
+      "norm_interval": 0.0,
+      "norm_linear": 0.002,
+      "intersection_interval": 0.002,
+      "intersection_linear": 0.002
+    }
+  }
+]

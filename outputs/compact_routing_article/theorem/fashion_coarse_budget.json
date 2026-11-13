@@ -1,0 +1,128 @@
+[
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "method": "full",
+    "first_layer_mse": 0.0,
+    "validation_accuracy_pct": 86.26,
+    "validation_ce": 0.3870363235473633,
+    "first_layer_bytes": 501760
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "method": "uniform_coarse_53",
+    "first_layer_mse": 0.0005204921471886337,
+    "validation_accuracy_pct": 85.56,
+    "validation_ce": 0.4005909562110901,
+    "first_layer_bytes": 61120,
+    "groups": 16,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "method": "uniform_coarse_85",
+    "first_layer_mse": 0.0001555599446874112,
+    "validation_accuracy_pct": 85.78,
+    "validation_ce": 0.38927245140075684,
+    "first_layer_bytes": 91840,
+    "groups": 16,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "method": "uniform_coarse_117",
+    "first_layer_mse": 4.930946306558326e-05,
+    "validation_accuracy_pct": 86.11999999999999,
+    "validation_ce": 0.3872221112251282,
+    "first_layer_bytes": 122560,
+    "groups": 16,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "method": "full",
+    "first_layer_mse": 0.0,
+    "validation_accuracy_pct": 86.53999999999999,
+    "validation_ce": 0.3748997151851654,
+    "first_layer_bytes": 501760
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "method": "uniform_coarse_53",
+    "first_layer_mse": 0.00012883590534329414,
+    "validation_accuracy_pct": 86.18,
+    "validation_ce": 0.3824256360530853,
+    "first_layer_bytes": 61120,
+    "groups": 16,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "method": "uniform_coarse_85",
+    "first_layer_mse": 2.3095622964319773e-05,
+    "validation_accuracy_pct": 86.5,
+    "validation_ce": 0.37529832124710083,
+    "first_layer_bytes": 91840,
+    "groups": 16,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "method": "uniform_coarse_117",
+    "first_layer_mse": 6.413521077774931e-06,
+    "validation_accuracy_pct": 86.52,
+    "validation_ce": 0.375281423330307,
+    "first_layer_bytes": 122560,
+    "groups": 16,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "method": "full",
+    "first_layer_mse": 0.0,
+    "validation_accuracy_pct": 86.1,
+    "validation_ce": 0.379960834980011,
+    "first_layer_bytes": 501760
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "method": "uniform_coarse_53",
+    "first_layer_mse": 0.00028610925073735416,
+    "validation_accuracy_pct": 85.39999999999999,
+    "validation_ce": 0.392214298248291,
+    "first_layer_bytes": 61120,
+    "groups": 16,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "method": "uniform_coarse_85",
+    "first_layer_mse": 7.712886144872755e-05,
+    "validation_accuracy_pct": 85.98,
+    "validation_ce": 0.38560038805007935,
+    "first_layer_bytes": 91840,
+    "groups": 16,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "method": "uniform_coarse_117",
+    "first_layer_mse": 2.907494126702659e-05,
+    "validation_accuracy_pct": 86.04,
+    "validation_ce": 0.3825456500053406,
+    "first_layer_bytes": 122560,
+    "groups": 16,
+    "coefficients_per_group": 1
+  }
+]

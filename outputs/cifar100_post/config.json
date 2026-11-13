@@ -1,0 +1,20 @@
+{
+  "dataset": "cifar100",
+  "ranks": [
+    8
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "methods": [
+    "logit_post"
+  ],
+  "epochs": 400,
+  "device": "mps",
+  "torch": "2.13.0",
+  "learning_rate": 0.003,
+  "decay": 0.01,
+  "batch": 512
+}

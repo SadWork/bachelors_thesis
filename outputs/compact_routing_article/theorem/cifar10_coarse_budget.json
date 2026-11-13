@@ -1,0 +1,128 @@
+[
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "method": "full",
+    "first_layer_mse": 0.0,
+    "validation_accuracy_pct": 50.739999999999995,
+    "validation_ce": 1.4215258359909058,
+    "first_layer_bytes": 1966080
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "method": "uniform_coarse_96",
+    "first_layer_mse": 4.372530020191334e-05,
+    "validation_accuracy_pct": 50.519999999999996,
+    "validation_ce": 1.421035885810852,
+    "first_layer_bytes": 122880,
+    "groups": 48,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "method": "uniform_coarse_128",
+    "first_layer_mse": 1.598546441528015e-05,
+    "validation_accuracy_pct": 50.72,
+    "validation_ce": 1.4204111099243164,
+    "first_layer_bytes": 153600,
+    "groups": 48,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "method": "uniform_coarse_160",
+    "first_layer_mse": 6.2368271755985916e-06,
+    "validation_accuracy_pct": 50.62,
+    "validation_ce": 1.4205843210220337,
+    "first_layer_bytes": 184320,
+    "groups": 48,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "method": "full",
+    "first_layer_mse": 0.0,
+    "validation_accuracy_pct": 52.2,
+    "validation_ce": 1.3754963874816895,
+    "first_layer_bytes": 1966080
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "method": "uniform_coarse_96",
+    "first_layer_mse": 5.454563142848201e-05,
+    "validation_accuracy_pct": 52.32,
+    "validation_ce": 1.376332402229309,
+    "first_layer_bytes": 122880,
+    "groups": 48,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "method": "uniform_coarse_128",
+    "first_layer_mse": 2.1022393411840312e-05,
+    "validation_accuracy_pct": 52.239999999999995,
+    "validation_ce": 1.3746362924575806,
+    "first_layer_bytes": 153600,
+    "groups": 48,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "method": "uniform_coarse_160",
+    "first_layer_mse": 9.768799827725161e-06,
+    "validation_accuracy_pct": 52.1,
+    "validation_ce": 1.3754701614379883,
+    "first_layer_bytes": 184320,
+    "groups": 48,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "method": "full",
+    "first_layer_mse": 0.0,
+    "validation_accuracy_pct": 51.6,
+    "validation_ce": 1.3933597803115845,
+    "first_layer_bytes": 1966080
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "method": "uniform_coarse_96",
+    "first_layer_mse": 0.00015390440239571035,
+    "validation_accuracy_pct": 51.300000000000004,
+    "validation_ce": 1.3960469961166382,
+    "first_layer_bytes": 122880,
+    "groups": 48,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "method": "uniform_coarse_128",
+    "first_layer_mse": 7.772435492370278e-05,
+    "validation_accuracy_pct": 51.480000000000004,
+    "validation_ce": 1.3945120573043823,
+    "first_layer_bytes": 153600,
+    "groups": 48,
+    "coefficients_per_group": 1
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "method": "uniform_coarse_160",
+    "first_layer_mse": 4.2493520595598966e-05,
+    "validation_accuracy_pct": 51.62,
+    "validation_ce": 1.3936257362365723,
+    "first_layer_bytes": 184320,
+    "groups": 48,
+    "coefficients_per_group": 1
+  }
+]

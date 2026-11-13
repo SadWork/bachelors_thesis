@@ -1,0 +1,17 @@
+{
+  "methods": [
+    "logit_pre"
+  ],
+  "ranks": [
+    8
+  ],
+  "seeds": [
+    1
+  ],
+  "epochs": 1200,
+  "device": "cuda",
+  "torch": "2.14.1+cu130",
+  "learning_rate": 0.003,
+  "decay": 0.01,
+  "batch": 512
+}

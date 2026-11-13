@@ -1,0 +1,32 @@
+{
+  "name": "mean_h4_wd0_kl0",
+  "condition": {
+    "model": "mean",
+    "hidden_layers": 4,
+    "width": 160,
+    "decay": 0.0,
+    "kl": 0.0
+  },
+  "seed": 0,
+  "epochs": 500,
+  "parameters": 205130,
+  "best_epoch": 480,
+  "validation_at_best": {
+    "accuracy": 0.9545999765396118,
+    "ce": 0.16986316442489624
+  },
+  "test_at_best": {
+    "accuracy": 0.9599000215530396,
+    "ce": 0.14819234609603882
+  },
+  "minimum_validation_ce": 0.16986316442489624,
+  "minimum_validation_ce_epoch": 480,
+  "validation_at_last": {
+    "accuracy": 0.9535999894142151,
+    "ce": 0.17839783430099487
+  },
+  "test_at_last": {
+    "accuracy": 0.9603999853134155,
+    "ce": 0.15307040512561798
+  }
+}

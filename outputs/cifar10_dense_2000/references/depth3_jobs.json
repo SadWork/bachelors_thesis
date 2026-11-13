@@ -1,0 +1,23 @@
+{
+  "depth": 3,
+  "gpu": "Tesla T4",
+  "torch": "2.14.1+cu130",
+  "split_sha256": "62b8be5987948a6a6cf8b9999fda324a6bc2baa3025f9f832f61d96c74f204f9",
+  "jobs": [
+    {
+      "condition": {
+        "name": "dense",
+        "hidden_decay": 0.01,
+        "head_decay": 0.0,
+        "kl": 0.0
+      },
+      "start_epoch": 60,
+      "validation_at_start": {
+        "accuracy": 0.4982,
+        "ce": 2.71711015625
+      },
+      "checkpoint_sha256": "d89bb1789a550e7dae378cbf1c35578def4c0452db2ea40092a2758c86f79147",
+      "original_checkpoint_sha256": "061a30e61d35c03cdef063a4780377a58e9d50b7ed65ac8fbe795f3f99f8dd0e"
+    }
+  ]
+}

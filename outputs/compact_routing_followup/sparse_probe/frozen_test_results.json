@@ -1,0 +1,163 @@
+{
+  "protocol": {
+    "dataset": "cifar10",
+    "test_split": "original CIFAR-10 test",
+    "checkpoint_family": "logit_pre_r8 best validation checkpoint",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "methods": [
+      "full",
+      "uniform_tail",
+      "uniform_tail_ridge"
+    ],
+    "head_weight_storage": "float16",
+    "head_index_storage": "uint16",
+    "tail_mass_storage": "float32",
+    "ridge_calibration_size": 1536,
+    "ridge_calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "ridge_penalty": "1e-6 + 0.01 * mean diagonal of centered H.T @ H",
+    "ridge_target": "unscaled teacher logits",
+    "ridge_prior": "original linear classifier weights",
+    "test_retuning": false
+  },
+  "rows": [
+    {
+      "seed": 0,
+      "checkpoint_epoch": 820,
+      "method": "full",
+      "accuracy_pct": 49.97,
+      "ce": 1.4389930963516235,
+      "explicit_scalar_edges": 568320,
+      "routing_cache_bytes": 2273280,
+      "resident_bytes_with_affine_and_head": 2284840
+    },
+    {
+      "seed": 0,
+      "checkpoint_epoch": 820,
+      "method": "uniform_tail",
+      "accuracy_pct": 48.559999999999995,
+      "ce": 1.472247838973999,
+      "explicit_scalar_edges": 61440,
+      "routing_cache_bytes": 248320,
+      "resident_bytes_with_affine_and_head": 259880
+    },
+    {
+      "seed": 0,
+      "checkpoint_epoch": 820,
+      "method": "uniform_tail_ridge",
+      "accuracy_pct": 49.559999999999995,
+      "ce": 1.444650650024414,
+      "explicit_scalar_edges": 61440,
+      "routing_cache_bytes": 248320,
+      "resident_bytes_with_affine_and_head": 259880
+    },
+    {
+      "seed": 1,
+      "checkpoint_epoch": 1190,
+      "method": "full",
+      "accuracy_pct": 51.07000000000001,
+      "ce": 1.3868865966796875,
+      "explicit_scalar_edges": 568320,
+      "routing_cache_bytes": 2273280,
+      "resident_bytes_with_affine_and_head": 2284840
+    },
+    {
+      "seed": 1,
+      "checkpoint_epoch": 1190,
+      "method": "uniform_tail",
+      "accuracy_pct": 50.64999999999999,
+      "ce": 1.4042078256607056,
+      "explicit_scalar_edges": 61440,
+      "routing_cache_bytes": 248320,
+      "resident_bytes_with_affine_and_head": 259880
+    },
+    {
+      "seed": 1,
+      "checkpoint_epoch": 1190,
+      "method": "uniform_tail_ridge",
+      "accuracy_pct": 51.080000000000005,
+      "ce": 1.3903591632843018,
+      "explicit_scalar_edges": 61440,
+      "routing_cache_bytes": 248320,
+      "resident_bytes_with_affine_and_head": 259880
+    },
+    {
+      "seed": 2,
+      "checkpoint_epoch": 1160,
+      "method": "full",
+      "accuracy_pct": 50.71,
+      "ce": 1.4041297435760498,
+      "explicit_scalar_edges": 568320,
+      "routing_cache_bytes": 2273280,
+      "resident_bytes_with_affine_and_head": 2284840
+    },
+    {
+      "seed": 2,
+      "checkpoint_epoch": 1160,
+      "method": "uniform_tail",
+      "accuracy_pct": 48.47,
+      "ce": 1.4740958213806152,
+      "explicit_scalar_edges": 61440,
+      "routing_cache_bytes": 248320,
+      "resident_bytes_with_affine_and_head": 259880
+    },
+    {
+      "seed": 2,
+      "checkpoint_epoch": 1160,
+      "method": "uniform_tail_ridge",
+      "accuracy_pct": 50.57000000000001,
+      "ce": 1.4065219163894653,
+      "explicit_scalar_edges": 61440,
+      "routing_cache_bytes": 248320,
+      "resident_bytes_with_affine_and_head": 259880
+    }
+  ],
+  "paired_test_accuracy": {
+    "uniform_tail_minus_full": {
+      "mean_delta_pp": -1.3566666666666667,
+      "per_seed_delta_pp": [
+        -1.41,
+        -0.42,
+        -2.2399999999999998
+      ],
+      "exploratory_interval_95_pp": [
+        -2.2634166666666666,
+        -0.4799166666666663
+      ]
+    },
+    "uniform_tail_ridge_minus_full": {
+      "mean_delta_pp": -0.18,
+      "per_seed_delta_pp": [
+        -0.41000000000000003,
+        0.01,
+        -0.13999999999999999
+      ],
+      "exploratory_interval_95_pp": [
+        -0.48,
+        0.09
+      ]
+    },
+    "uniform_tail_ridge_minus_uniform_tail": {
+      "mean_delta_pp": 1.1766666666666667,
+      "per_seed_delta_pp": [
+        1.0,
+        0.43,
+        2.1
+      ],
+      "exploratory_interval_95_pp": [
+        0.4033333333333333,
+        2.06
+      ]
+    }
+  }
+}

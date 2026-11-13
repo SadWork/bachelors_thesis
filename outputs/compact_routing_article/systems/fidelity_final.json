@@ -1,0 +1,194 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "split": "test",
+  "accuracy": [
+    {
+      "seed": 0,
+      "name": "refit_fp32",
+      "accuracy": 0.4931,
+      "ce": 1.4510360956192017,
+      "max_logit_error": 1.3113021850585938e-05,
+      "max_raw_logit_error": 2.4318695068359375e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 0,
+      "name": "refit_fp16",
+      "accuracy": 0.4931,
+      "ce": 1.4510360956192017,
+      "max_logit_error": 1.3113021850585938e-05,
+      "max_raw_logit_error": 2.4318695068359375e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 0,
+      "name": "refit_fp32_buckets",
+      "accuracy": 0.4931,
+      "ce": 1.4510360956192017,
+      "max_logit_error": 1.5020370483398438e-05,
+      "max_raw_logit_error": 2.5987625122070312e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 0,
+      "name": "refit_fp16_buckets",
+      "accuracy": 0.4931,
+      "ce": 1.4510360956192017,
+      "max_logit_error": 1.5020370483398438e-05,
+      "max_raw_logit_error": 2.5987625122070312e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 0,
+      "name": "dense_fp32",
+      "accuracy": 0.5085,
+      "ce": 1.4249987602233887
+    },
+    {
+      "seed": 0,
+      "name": "dense_fp16",
+      "accuracy": 0.5085,
+      "ce": 1.4250130653381348
+    },
+    {
+      "seed": 0,
+      "name": "cached_exact",
+      "accuracy": 0.4997,
+      "ce": 1.438992977142334
+    },
+    {
+      "seed": 0,
+      "name": "global64",
+      "accuracy": 0.4703,
+      "ce": 1.5177863836288452,
+      "max_logit_error": 2.4199485778808594e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 0,
+      "name": "global128",
+      "accuracy": 0.4918,
+      "ce": 1.4544874429702759,
+      "max_logit_error": 2.5272369384765625e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 0,
+      "name": "tile64",
+      "accuracy": 0.4954,
+      "ce": 1.445334792137146,
+      "max_logit_error": 1.6689300537109375e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 0,
+      "name": "tile96",
+      "accuracy": 0.4989,
+      "ce": 1.4392436742782593,
+      "max_logit_error": 2.8848648071289062e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 1,
+      "name": "dense_fp32",
+      "accuracy": 0.5181,
+      "ce": 5.4413676261901855
+    },
+    {
+      "seed": 1,
+      "name": "dense_fp16",
+      "accuracy": 0.5179,
+      "ce": 5.441660404205322
+    },
+    {
+      "seed": 1,
+      "name": "cached_exact",
+      "accuracy": 0.5106,
+      "ce": 1.3868865966796875
+    },
+    {
+      "seed": 1,
+      "name": "global64",
+      "accuracy": 0.492,
+      "ce": 1.4500621557235718,
+      "max_logit_error": 3.445148468017578e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 1,
+      "name": "global128",
+      "accuracy": 0.5111,
+      "ce": 1.394230842590332,
+      "max_logit_error": 3.147125244140625e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 1,
+      "name": "tile64",
+      "accuracy": 0.5101,
+      "ce": 1.389647126197815,
+      "max_logit_error": 2.7179718017578125e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 1,
+      "name": "tile96",
+      "accuracy": 0.5113,
+      "ce": 1.3876656293869019,
+      "max_logit_error": 2.2172927856445312e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 2,
+      "name": "dense_fp32",
+      "accuracy": 0.4977,
+      "ce": 5.166919708251953
+    },
+    {
+      "seed": 2,
+      "name": "dense_fp16",
+      "accuracy": 0.4976,
+      "ce": 5.166928291320801
+    },
+    {
+      "seed": 2,
+      "name": "cached_exact",
+      "accuracy": 0.5071,
+      "ce": 1.4041297435760498
+    },
+    {
+      "seed": 2,
+      "name": "global64",
+      "accuracy": 0.4887,
+      "ce": 1.4694204330444336,
+      "max_logit_error": 3.719329833984375e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 2,
+      "name": "global128",
+      "accuracy": 0.5022,
+      "ce": 1.4154001474380493,
+      "max_logit_error": 3.1948089599609375e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 2,
+      "name": "tile64",
+      "accuracy": 0.507,
+      "ce": 1.4089804887771606,
+      "max_logit_error": 2.09808349609375e-05,
+      "changed_predictions_vs_reference": 0
+    },
+    {
+      "seed": 2,
+      "name": "tile96",
+      "accuracy": 0.5073,
+      "ce": 1.4038316011428833,
+      "max_logit_error": 2.6226043701171875e-05,
+      "changed_predictions_vs_reference": 0
+    }
+  ],
+  "timing": {},
+  "memory": {}
+}

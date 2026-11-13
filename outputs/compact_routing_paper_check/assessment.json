@@ -1,0 +1,354 @@
+{
+  "cifar10": {
+    "rows": [
+      {
+        "dataset": "cifar10",
+        "method": "full_dense",
+        "seed": 0,
+        "parameters": 570570,
+        "best_epoch": 8,
+        "validation_accuracy": 52.04,
+        "test_accuracy": 50.849999999999994,
+        "test_ce": 1.4249986716666951,
+        "calibrated_test_ce": 1.4000067942220582,
+        "temperature": 1.2334254983196289
+      },
+      {
+        "dataset": "cifar10",
+        "method": "logit_pre",
+        "seed": 0,
+        "parameters": 36426,
+        "best_epoch": 820,
+        "validation_accuracy": 50.739999999999995,
+        "test_accuracy": 49.97,
+        "test_ce": 1.4389933011198812,
+        "calibrated_test_ce": 1.4301365717622059,
+        "temperature": 1.1280926092389663
+      },
+      {
+        "dataset": "cifar10",
+        "method": "logit_post",
+        "seed": 0,
+        "parameters": 36426,
+        "best_epoch": 1180,
+        "validation_accuracy": 49.7,
+        "test_accuracy": 49.57,
+        "test_ce": 1.4296238769968614,
+        "calibrated_test_ce": 1.4170019698837937,
+        "temperature": 1.1769772825037979
+      },
+      {
+        "dataset": "cifar10",
+        "method": "full_dense",
+        "seed": 1,
+        "parameters": 570570,
+        "best_epoch": 1000,
+        "validation_accuracy": 53.059999999999995,
+        "test_accuracy": 51.81,
+        "test_ce": 5.441367242357015,
+        "calibrated_test_ce": 1.4196494002174451,
+        "temperature": 8.17717757800537
+      },
+      {
+        "dataset": "cifar10",
+        "method": "logit_pre",
+        "seed": 1,
+        "parameters": 36426,
+        "best_epoch": 1190,
+        "validation_accuracy": 52.2,
+        "test_accuracy": 51.06,
+        "test_ce": 1.3868867562335006,
+        "calibrated_test_ce": 1.3754692049142587,
+        "temperature": 1.1585789520304643
+      },
+      {
+        "dataset": "cifar10",
+        "method": "logit_post",
+        "seed": 1,
+        "parameters": 36426,
+        "best_epoch": 1200,
+        "validation_accuracy": 50.38,
+        "test_accuracy": 48.89,
+        "test_ce": 1.4422788051238424,
+        "calibrated_test_ce": 1.4279210268016385,
+        "temperature": 1.1718344108988286
+      },
+      {
+        "dataset": "cifar10",
+        "method": "full_dense",
+        "seed": 2,
+        "parameters": 570570,
+        "best_epoch": 230,
+        "validation_accuracy": 52.7,
+        "test_accuracy": 49.769999999999996,
+        "test_ce": 5.166919911507017,
+        "calibrated_test_ce": 1.471225917060665,
+        "temperature": 7.7144358180333015
+      },
+      {
+        "dataset": "cifar10",
+        "method": "logit_pre",
+        "seed": 2,
+        "parameters": 36426,
+        "best_epoch": 1160,
+        "validation_accuracy": 51.6,
+        "test_accuracy": 50.71,
+        "test_ce": 1.4041294867177219,
+        "calibrated_test_ce": 1.3912965533840085,
+        "temperature": 1.1666114924887054
+      },
+      {
+        "dataset": "cifar10",
+        "method": "logit_post",
+        "seed": 2,
+        "parameters": 36426,
+        "best_epoch": 1195,
+        "validation_accuracy": 51.080000000000005,
+        "test_accuracy": 50.43,
+        "test_ce": 1.4096591620545933,
+        "calibrated_test_ce": 1.3938322819499198,
+        "temperature": 1.2156565451330303
+      }
+    ],
+    "paired_pre_minus_control": {
+      "full_dense": {
+        "mean_pp": -0.22999999999999998,
+        "by_seed_pp": [
+          -0.88,
+          -0.75,
+          0.9400000000000001
+        ],
+        "interval_95_pp": [
+          -1.4400833333333332,
+          1.08
+        ],
+        "practical_margin_pp": 1.0
+      },
+      "logit_post": {
+        "mean_pp": 0.95,
+        "by_seed_pp": [
+          0.4,
+          2.17,
+          0.27999999999999997
+        ],
+        "interval_95_pp": [
+          -0.22666666666666668,
+          2.2135000000000007
+        ],
+        "practical_margin_pp": 1.0
+      }
+    },
+    "latency": {
+      "device": "Metal",
+      "seed": 0,
+      "batch_ms": {
+        "1": {
+          "full_dense": 0.23193359356810106,
+          "logit_pre": 0.2308515622644336,
+          "logit_pre_cached": 0.11571746927074855
+        },
+        "512": {
+          "full_dense": 0.24771743665041868,
+          "logit_pre": 2.241453124952386,
+          "logit_pre_cached": 2.239763030956965
+        }
+      },
+      "parameter_bytes": {
+        "full_dense": 2282280,
+        "logit_pre": 145704,
+        "logit_pre_cached": 6440
+      },
+      "cached_buffer_bytes": 2278400
+    }
+  },
+  "fashion": {
+    "rows": [
+      {
+        "dataset": "fashion",
+        "method": "full_dense",
+        "seed": 0,
+        "parameters": 204490,
+        "best_epoch": 445,
+        "validation_accuracy": 89.60000000000001,
+        "test_accuracy": 89.08,
+        "test_ce": 1.0458092919200086,
+        "calibrated_test_ce": 0.34603798619586024,
+        "temperature": 5.222362256291806
+      },
+      {
+        "dataset": "fashion",
+        "method": "factor_dense",
+        "seed": 0,
+        "parameters": 17482,
+        "best_epoch": 320,
+        "validation_accuracy": 86.5,
+        "test_accuracy": 85.71,
+        "test_ce": 0.4583651320528581,
+        "calibrated_test_ce": 0.4117809090582314,
+        "temperature": 1.5218970387810211
+      },
+      {
+        "dataset": "fashion",
+        "method": "logit_pre",
+        "seed": 0,
+        "parameters": 18122,
+        "best_epoch": 465,
+        "validation_accuracy": 86.26,
+        "test_accuracy": 85.61999999999999,
+        "test_ce": 0.4093044586794167,
+        "calibrated_test_ce": 0.40719267657842445,
+        "temperature": 1.070436922040536
+      },
+      {
+        "dataset": "fashion",
+        "method": "logit_post",
+        "seed": 0,
+        "parameters": 18122,
+        "best_epoch": 500,
+        "validation_accuracy": 86.56,
+        "test_accuracy": 86.19,
+        "test_ce": 0.39720784694936784,
+        "calibrated_test_ce": 0.39280288776346245,
+        "temperature": 1.113634116613844
+      },
+      {
+        "dataset": "fashion",
+        "method": "full_dense",
+        "seed": 1,
+        "parameters": 204490,
+        "best_epoch": 345,
+        "validation_accuracy": 89.42,
+        "test_accuracy": 88.99000000000001,
+        "test_ce": 1.137696308889539,
+        "calibrated_test_ce": 0.34912545109976795,
+        "temperature": 5.849344672267656
+      },
+      {
+        "dataset": "fashion",
+        "method": "factor_dense",
+        "seed": 1,
+        "parameters": 17482,
+        "best_epoch": 105,
+        "validation_accuracy": 86.33999999999999,
+        "test_accuracy": 86.05000000000001,
+        "test_ce": 0.42070925273622395,
+        "calibrated_test_ce": 0.3963518759870964,
+        "temperature": 1.3555301892549367
+      },
+      {
+        "dataset": "fashion",
+        "method": "logit_pre",
+        "seed": 1,
+        "parameters": 18122,
+        "best_epoch": 470,
+        "validation_accuracy": 86.53999999999999,
+        "test_accuracy": 85.28,
+        "test_ce": 0.3971453982808024,
+        "calibrated_test_ce": 0.39329970723045493,
+        "temperature": 1.1013123779512872
+      },
+      {
+        "dataset": "fashion",
+        "method": "logit_post",
+        "seed": 1,
+        "parameters": 18122,
+        "best_epoch": 495,
+        "validation_accuracy": 86.7,
+        "test_accuracy": 86.08,
+        "test_ce": 0.3842577579135976,
+        "calibrated_test_ce": 0.3804770276870915,
+        "temperature": 1.1378563046024572
+      },
+      {
+        "dataset": "fashion",
+        "method": "full_dense",
+        "seed": 2,
+        "parameters": 204490,
+        "best_epoch": 410,
+        "validation_accuracy": 89.58,
+        "test_accuracy": 88.94999999999999,
+        "test_ce": 1.0230844220710116,
+        "calibrated_test_ce": 0.34781215633690643,
+        "temperature": 5.011662170164615
+      },
+      {
+        "dataset": "fashion",
+        "method": "factor_dense",
+        "seed": 2,
+        "parameters": 17482,
+        "best_epoch": 200,
+        "validation_accuracy": 86.9,
+        "test_accuracy": 85.99,
+        "test_ce": 0.4458568732795559,
+        "calibrated_test_ce": 0.4060990635041107,
+        "temperature": 1.495769942105326
+      },
+      {
+        "dataset": "fashion",
+        "method": "logit_pre",
+        "seed": 2,
+        "parameters": 18122,
+        "best_epoch": 495,
+        "validation_accuracy": 86.1,
+        "test_accuracy": 85.89,
+        "test_ce": 0.401923812899991,
+        "calibrated_test_ce": 0.40035087965730215,
+        "temperature": 1.0592617906260513
+      },
+      {
+        "dataset": "fashion",
+        "method": "logit_post",
+        "seed": 2,
+        "parameters": 18122,
+        "best_epoch": 500,
+        "validation_accuracy": 86.32,
+        "test_accuracy": 85.56,
+        "test_ce": 0.41413561954302386,
+        "calibrated_test_ce": 0.41084924738433853,
+        "temperature": 1.1041607863332223
+      }
+    ],
+    "paired_pre_minus_control": {
+      "full_dense": {
+        "mean_pp": -3.4099999999999997,
+        "by_seed_pp": [
+          -3.46,
+          -3.71,
+          -3.06
+        ],
+        "interval_95_pp": [
+          -4.03,
+          -2.78
+        ],
+        "practical_margin_pp": 1.0
+      },
+      "factor_dense": {
+        "mean_pp": -0.32,
+        "by_seed_pp": [
+          -0.09,
+          -0.77,
+          -0.1
+        ],
+        "interval_95_pp": [
+          -0.8999999999999999,
+          0.27999999999999997
+        ],
+        "practical_margin_pp": 1.0
+      },
+      "logit_post": {
+        "mean_pp": -0.3466666666666667,
+        "by_seed_pp": [
+          -0.5700000000000001,
+          -0.8,
+          0.33
+        ],
+        "interval_95_pp": [
+          -0.9833333333333333,
+          0.33999999999999997
+        ],
+        "practical_margin_pp": 1.0
+      }
+    },
+    "latency": null
+  }
+}

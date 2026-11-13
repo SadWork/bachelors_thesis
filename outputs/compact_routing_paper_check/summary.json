@@ -1,0 +1,187 @@
+{
+  "metrics": {
+    "cifar10": {
+      "full_dense": {
+        "test_accuracy": {
+          "mean": 50.809999999999995,
+          "sd": 1.0205880657738489
+        },
+        "test_ce": {
+          "mean": 4.011095275176909,
+          "sd": 2.2438253199320064
+        },
+        "calibrated_test_ce": {
+          "mean": 1.4302940371667228,
+          "sd": 0.036783448537509165
+        },
+        "parameters": 570570
+      },
+      "logit_pre": {
+        "test_accuracy": {
+          "mean": 50.58,
+          "sd": 0.5565069631190628
+        },
+        "test_ce": {
+          "mean": 1.4100031813570346,
+          "sd": 0.02654521089643137
+        },
+        "calibrated_test_ce": {
+          "mean": 1.398967443353491,
+          "sd": 0.028129382577919103
+        },
+        "parameters": 36426
+      },
+      "logit_post": {
+        "test_accuracy": {
+          "mean": 49.63,
+          "sd": 0.771751255262989
+        },
+        "test_ce": {
+          "mean": 1.4271872813917656,
+          "sd": 0.016445760155687
+        },
+        "calibrated_test_ce": {
+          "mean": 1.412918426211784,
+          "sd": 0.017407387169885703
+        },
+        "parameters": 36426
+      }
+    },
+    "fashion": {
+      "full_dense": {
+        "test_accuracy": {
+          "mean": 89.00666666666666,
+          "sd": 0.06658328118479669
+        },
+        "test_ce": {
+          "mean": 1.0688633409601864,
+          "sd": 0.060684331032696846
+        },
+        "calibrated_test_ce": {
+          "mean": 0.3476585312108449,
+          "sd": 0.0015494548695375206
+        },
+        "parameters": 204490
+      },
+      "factor_dense": {
+        "test_accuracy": {
+          "mean": 85.91666666666667,
+          "sd": 0.18147543451755602
+        },
+        "test_ce": {
+          "mean": 0.441643752689546,
+          "sd": 0.01917821943264555
+        },
+        "calibrated_test_ce": {
+          "mean": 0.4047439495164795,
+          "sd": 0.007803269559431444
+        },
+        "parameters": 17482
+      },
+      "logit_pre": {
+        "test_accuracy": {
+          "mean": 85.59666666666666,
+          "sd": 0.30566866593311937
+        },
+        "test_ce": {
+          "mean": 0.4027912232867367,
+          "sd": 0.006125764281178589
+        },
+        "calibrated_test_ce": {
+          "mean": 0.4002810878220605,
+          "sd": 0.006946747620369186
+        },
+        "parameters": 18122
+      },
+      "logit_post": {
+        "test_accuracy": {
+          "mean": 85.94333333333333,
+          "sd": 0.3365016097039235
+        },
+        "test_ce": {
+          "mean": 0.3985337414686631,
+          "sd": 0.014982995397917203
+        },
+        "calibrated_test_ce": {
+          "mean": 0.39470972094496415,
+          "sd": 0.015275632292020416
+        },
+        "parameters": 18122
+      }
+    }
+  },
+  "paired": [
+    {
+      "dataset": "cifar10",
+      "control": "full_dense",
+      "mean_pp": -0.22999999999999998,
+      "low_95_pp": -1.4400833333333332,
+      "high_95_pp": 1.08,
+      "seed0_pp": -0.88,
+      "seed1_pp": -0.75,
+      "seed2_pp": 0.9400000000000001
+    },
+    {
+      "dataset": "cifar10",
+      "control": "logit_post",
+      "mean_pp": 0.95,
+      "low_95_pp": -0.22666666666666668,
+      "high_95_pp": 2.2135000000000007,
+      "seed0_pp": 0.4,
+      "seed1_pp": 2.17,
+      "seed2_pp": 0.27999999999999997
+    },
+    {
+      "dataset": "fashion",
+      "control": "full_dense",
+      "mean_pp": -3.4099999999999997,
+      "low_95_pp": -4.03,
+      "high_95_pp": -2.78,
+      "seed0_pp": -3.46,
+      "seed1_pp": -3.71,
+      "seed2_pp": -3.06
+    },
+    {
+      "dataset": "fashion",
+      "control": "factor_dense",
+      "mean_pp": -0.32,
+      "low_95_pp": -0.8999999999999999,
+      "high_95_pp": 0.27999999999999997,
+      "seed0_pp": -0.09,
+      "seed1_pp": -0.77,
+      "seed2_pp": -0.1
+    },
+    {
+      "dataset": "fashion",
+      "control": "logit_post",
+      "mean_pp": -0.3466666666666667,
+      "low_95_pp": -0.9833333333333333,
+      "high_95_pp": 0.33999999999999997,
+      "seed0_pp": -0.5700000000000001,
+      "seed1_pp": -0.8,
+      "seed2_pp": 0.33
+    }
+  ],
+  "cifar10_latency": {
+    "device": "Metal",
+    "seed": 0,
+    "batch_ms": {
+      "1": {
+        "full_dense": 0.23193359356810106,
+        "logit_pre": 0.2308515622644336,
+        "logit_pre_cached": 0.11571746927074855
+      },
+      "512": {
+        "full_dense": 0.24771743665041868,
+        "logit_pre": 2.241453124952386,
+        "logit_pre_cached": 2.239763030956965
+      }
+    },
+    "parameter_bytes": {
+      "full_dense": 2282280,
+      "logit_pre": 145704,
+      "logit_pre_cached": 6440
+    },
+    "cached_buffer_bytes": 2278400
+  }
+}

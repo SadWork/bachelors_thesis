@@ -1,0 +1,770 @@
+[
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 84.8,
+    "ce": 0.4118402898311615
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.48,
+    "ce": 0.3977523148059845
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.6,
+    "ce": 0.3937804698944092
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.82,
+    "ce": 0.3930618166923523
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.9,
+    "ce": 0.3881056606769562
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.78,
+    "ce": 0.38887906074523926
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.04,
+    "ce": 0.38758376240730286
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.98,
+    "ce": 0.3875979483127594
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.86,
+    "ce": 0.3866807520389557
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.08,
+    "ce": 0.3879970610141754
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.2,
+    "ce": 0.3877360224723816
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.06,
+    "ce": 0.3874032497406006
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.96000000000001,
+    "ce": 0.3868335485458374
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.14,
+    "ce": 0.3878401219844818
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.18,
+    "ce": 0.3874761760234833
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.11999999999999,
+    "ce": 0.3872736990451813
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.32,
+    "ce": 0.40013834834098816
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.08,
+    "ce": 0.39506250619888306
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.14,
+    "ce": 0.3812949061393738
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.18,
+    "ce": 0.3816797435283661
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.58,
+    "ce": 0.3835575580596924
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.5,
+    "ce": 0.3777037560939789
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.64,
+    "ce": 0.37604576349258423
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.66,
+    "ce": 0.3757249712944031
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.3,
+    "ce": 0.38831934332847595
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.53999999999999,
+    "ce": 0.3767213523387909
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.56,
+    "ce": 0.3761810064315796
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.72,
+    "ce": 0.37577125430107117
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.14,
+    "ce": 0.3913526237010956
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.53999999999999,
+    "ce": 0.3766506016254425
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.53999999999999,
+    "ce": 0.3761582374572754
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.72,
+    "ce": 0.3757251501083374
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 83.02000000000001,
+    "ce": 0.4787842333316803
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.6,
+    "ce": 0.3956902325153351
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.02,
+    "ce": 0.38822704553604126
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.84,
+    "ce": 0.38790827989578247
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.76,
+    "ce": 0.39373108744621277
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.06,
+    "ce": 0.38257062435150146
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.96000000000001,
+    "ce": 0.38092952966690063
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.9,
+    "ce": 0.3813982307910919
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.94000000000001,
+    "ce": 0.3917049765586853
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.06,
+    "ce": 0.38159555196762085
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.02,
+    "ce": 0.38061290979385376
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.92,
+    "ce": 0.38085752725601196
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.8,
+    "ce": 0.39273011684417725
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.06,
+    "ce": 0.38158637285232544
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 86.04,
+    "ce": 0.38060808181762695
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+    "accuracy_pct": 85.96000000000001,
+    "ce": 0.3808150291442871
+  }
+]

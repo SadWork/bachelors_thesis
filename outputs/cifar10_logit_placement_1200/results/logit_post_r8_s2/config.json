@@ -1,0 +1,17 @@
+{
+  "methods": [
+    "logit_post"
+  ],
+  "ranks": [
+    8
+  ],
+  "seeds": [
+    2
+  ],
+  "epochs": 1200,
+  "device": "mps",
+  "torch": "2.13.0",
+  "learning_rate": 0.003,
+  "decay": 0.01,
+  "batch": 512
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "seed": 0,
+    "method": "dense",
+    "resident_bytes": 2282280,
+    "validation": {
+      "accuracy": 0.5204,
+      "ce": 1.3987066745758057
+    },
+    "max_verification_error": null
+  },
+  {
+    "seed": 0,
+    "method": "cached_full",
+    "resident_bytes": 2287440,
+    "validation": {
+      "accuracy": 0.5074,
+      "ce": 1.4215258359909058
+    },
+    "max_verification_error": 4.887580871582031e-06
+  },
+  {
+    "seed": 0,
+    "method": "k128_all",
+    "resident_bytes": 505680,
+    "validation": {
+      "accuracy": 0.5014,
+      "ce": 1.431547999382019
+    },
+    "max_verification_error": 6.198883056640625e-06
+  },
+  {
+    "seed": 0,
+    "method": "k128_96_128_96",
+    "resident_bytes": 444240,
+    "validation": {
+      "accuracy": 0.4988,
+      "ce": 1.4372572898864746
+    },
+    "max_verification_error": 5.4836273193359375e-06
+  },
+  {
+    "seed": 0,
+    "method": "k64_first",
+    "resident_bytes": 382800,
+    "validation": {
+      "accuracy": 0.486,
+      "ce": 1.490073323249817
+    },
+    "max_verification_error": 6.079673767089844e-06
+  },
+  {
+    "seed": 0,
+    "method": "k128_first",
+    "resident_bytes": 444240,
+    "validation": {
+      "accuracy": 0.5012,
+      "ce": 1.4311542510986328
+    },
+    "max_verification_error": 4.0531158447265625e-06
+  },
+  {
+    "seed": 0,
+    "method": "k64_96_96_96",
+    "resident_bytes": 352080,
+    "validation": {
+      "accuracy": 0.4838,
+      "ce": 1.4944007396697998
+    },
+    "max_verification_error": 5.4836273193359375e-06
+  },
+  {
+    "seed": 0,
+    "method": "k96_64_96_64",
+    "resident_bytes": 321360,
+    "validation": {
+      "accuracy": 0.4894,
+      "ce": 1.4577510356903076
+    },
+    "max_verification_error": 1.1205673217773438e-05
+  },
+  {
+    "seed": 0,
+    "method": "tiled64_first",
+    "resident_bytes": 415440,
+    "validation": {
+      "accuracy": 0.5026,
+      "ce": 1.4290844202041626
+    },
+    "max_verification_error": 5.0067901611328125e-06
+  },
+  {
+    "seed": 0,
+    "method": "tiled96_first",
+    "resident_bytes": 446160,
+    "validation": {
+      "accuracy": 0.5052,
+      "ce": 1.421035885810852
+    },
+    "max_verification_error": 4.291534423828125e-06
+  },
+  {
+    "seed": 0,
+    "method": "tiled128_first",
+    "resident_bytes": 476880,
+    "validation": {
+      "accuracy": 0.5072,
+      "ce": 1.4204113483428955
+    },
+    "max_verification_error": 8.106231689453125e-06
+  },
+  {
+    "seed": 1,
+    "method": "dense",
+    "resident_bytes": 2282280,
+    "validation": {
+      "accuracy": 0.5306,
+      "ce": 5.388368606567383
+    },
+    "max_verification_error": null
+  },
+  {
+    "seed": 1,
+    "method": "cached_full",
+    "resident_bytes": 2287440,
+    "validation": {
+      "accuracy": 0.522,
+      "ce": 1.3754963874816895
+    },
+    "max_verification_error": 7.033348083496094e-06
+  },
+  {
+    "seed": 1,
+    "method": "k128_all",
+    "resident_bytes": 505680,
+    "validation": {
+      "accuracy": 0.5198,
+      "ce": 1.3794282674789429
+    },
+    "max_verification_error": 1.0728836059570312e-05
+  },
+  {
+    "seed": 1,
+    "method": "k128_96_128_96",
+    "resident_bytes": 444240,
+    "validation": {
+      "accuracy": 0.5196,
+      "ce": 1.3782490491867065
+    },
+    "max_verification_error": 8.344650268554688e-06
+  },
+  {
+    "seed": 1,
+    "method": "k64_first",
+    "resident_bytes": 382800,
+    "validation": {
+      "accuracy": 0.506,
+      "ce": 1.433745265007019
+    },
+    "max_verification_error": 4.76837158203125e-06
+  },
+  {
+    "seed": 1,
+    "method": "k128_first",
+    "resident_bytes": 444240,
+    "validation": {
+      "accuracy": 0.5236,
+      "ce": 1.3807786703109741
+    },
+    "max_verification_error": 4.76837158203125e-06
+  },
+  {
+    "seed": 1,
+    "method": "k64_96_96_96",
+    "resident_bytes": 352080,
+    "validation": {
+      "accuracy": 0.5064,
+      "ce": 1.4288921356201172
+    },
+    "max_verification_error": 6.139278411865234e-06
+  },
+  {
+    "seed": 1,
+    "method": "k96_64_96_64",
+    "resident_bytes": 321360,
+    "validation": {
+      "accuracy": 0.5118,
+      "ce": 1.399338960647583
+    },
+    "max_verification_error": 7.3909759521484375e-06
+  },
+  {
+    "seed": 1,
+    "method": "tiled64_first",
+    "resident_bytes": 415440,
+    "validation": {
+      "accuracy": 0.52,
+      "ce": 1.3794333934783936
+    },
+    "max_verification_error": 5.7220458984375e-06
+  },
+  {
+    "seed": 1,
+    "method": "tiled96_first",
+    "resident_bytes": 446160,
+    "validation": {
+      "accuracy": 0.5232,
+      "ce": 1.3763322830200195
+    },
+    "max_verification_error": 4.76837158203125e-06
+  },
+  {
+    "seed": 1,
+    "method": "tiled128_first",
+    "resident_bytes": 476880,
+    "validation": {
+      "accuracy": 0.5224,
+      "ce": 1.3746362924575806
+    },
+    "max_verification_error": 4.827976226806641e-06
+  },
+  {
+    "seed": 2,
+    "method": "dense",
+    "resident_bytes": 2282280,
+    "validation": {
+      "accuracy": 0.527,
+      "ce": 4.9782938957214355
+    },
+    "max_verification_error": null
+  },
+  {
+    "seed": 2,
+    "method": "cached_full",
+    "resident_bytes": 2287440,
+    "validation": {
+      "accuracy": 0.516,
+      "ce": 1.3933597803115845
+    },
+    "max_verification_error": 6.079673767089844e-06
+  },
+  {
+    "seed": 2,
+    "method": "k128_all",
+    "resident_bytes": 505680,
+    "validation": {
+      "accuracy": 0.5094,
+      "ce": 1.4071012735366821
+    },
+    "max_verification_error": 5.4836273193359375e-06
+  },
+  {
+    "seed": 2,
+    "method": "k128_96_128_96",
+    "resident_bytes": 444240,
+    "validation": {
+      "accuracy": 0.5086,
+      "ce": 1.410653829574585
+    },
+    "max_verification_error": 9.5367431640625e-06
+  },
+  {
+    "seed": 2,
+    "method": "k64_first",
+    "resident_bytes": 382800,
+    "validation": {
+      "accuracy": 0.4914,
+      "ce": 1.4618743658065796
+    },
+    "max_verification_error": 6.198883056640625e-06
+  },
+  {
+    "seed": 2,
+    "method": "k128_first",
+    "resident_bytes": 444240,
+    "validation": {
+      "accuracy": 0.5096,
+      "ce": 1.4064068794250488
+    },
+    "max_verification_error": 6.079673767089844e-06
+  },
+  {
+    "seed": 2,
+    "method": "k64_96_96_96",
+    "resident_bytes": 352080,
+    "validation": {
+      "accuracy": 0.4908,
+      "ce": 1.4664795398712158
+    },
+    "max_verification_error": 9.5367431640625e-06
+  },
+  {
+    "seed": 2,
+    "method": "k96_64_96_64",
+    "resident_bytes": 321360,
+    "validation": {
+      "accuracy": 0.4902,
+      "ce": 1.4770722389221191
+    },
+    "max_verification_error": 6.794929504394531e-06
+  },
+  {
+    "seed": 2,
+    "method": "tiled64_first",
+    "resident_bytes": 415440,
+    "validation": {
+      "accuracy": 0.512,
+      "ce": 1.4001553058624268
+    },
+    "max_verification_error": 5.364418029785156e-06
+  },
+  {
+    "seed": 2,
+    "method": "tiled96_first",
+    "resident_bytes": 446160,
+    "validation": {
+      "accuracy": 0.513,
+      "ce": 1.3960468769073486
+    },
+    "max_verification_error": 6.67572021484375e-06
+  },
+  {
+    "seed": 2,
+    "method": "tiled128_first",
+    "resident_bytes": 476880,
+    "validation": {
+      "accuracy": 0.5148,
+      "ce": 1.3945118188858032
+    },
+    "max_verification_error": 6.67572021484375e-06
+  }
+]

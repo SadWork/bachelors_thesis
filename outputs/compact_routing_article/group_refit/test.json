@@ -1,0 +1,41 @@
+[
+  {
+    "seed": 0,
+    "tile": 8,
+    "test": {
+      "accuracy_pct": 49.36,
+      "ce": 1.4488331079483032
+    },
+    "teacher_test": {
+      "accuracy_pct": 49.97,
+      "ce": 1.4389930963516235
+    },
+    "packed_bytes_estimate": 131880
+  },
+  {
+    "seed": 1,
+    "tile": 8,
+    "test": {
+      "accuracy_pct": 51.190000000000005,
+      "ce": 1.3920241594314575
+    },
+    "teacher_test": {
+      "accuracy_pct": 51.07000000000001,
+      "ce": 1.3868865966796875
+    },
+    "packed_bytes_estimate": 131880
+  },
+  {
+    "seed": 2,
+    "tile": 8,
+    "test": {
+      "accuracy_pct": 49.84,
+      "ce": 1.410839557647705
+    },
+    "teacher_test": {
+      "accuracy_pct": 50.71,
+      "ce": 1.4041297435760498
+    },
+    "packed_bytes_estimate": 131880
+  }
+]

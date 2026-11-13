@@ -1,0 +1,150 @@
+{
+  "split_sha256": "62b8be5987948a6a6cf8b9999fda324a6bc2baa3025f9f832f61d96c74f204f9",
+  "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+  "rows": [
+    {
+      "dataset": "cifar10",
+      "seed": 0,
+      "rank": 31,
+      "method": "factor_fp32",
+      "best_epoch": 14,
+      "packed_bytes_estimate": 528808,
+      "validation": {
+        "accuracy": 0.5204,
+        "ce": 1.3906271484375
+      },
+      "test": {
+        "accuracy": 0.5088,
+        "ce": 1.3903306640625
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 0,
+      "rank": 31,
+      "method": "factor_int8",
+      "best_epoch": 14,
+      "packed_bytes_estimate": 137248,
+      "validation": {
+        "accuracy": 0.5194,
+        "ce": 1.3905103515625
+      },
+      "test": {
+        "accuracy": 0.5081,
+        "ce": 1.39035673828125
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 0,
+      "rank": 31,
+      "method": "factor_int8_ridge",
+      "best_epoch": 14,
+      "packed_bytes_estimate": 137248,
+      "validation": {
+        "accuracy": 0.52,
+        "ce": 1.39083203125
+      },
+      "test": {
+        "accuracy": 0.508,
+        "ce": 1.39047822265625
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 1,
+      "rank": 31,
+      "method": "factor_fp32",
+      "best_epoch": 35,
+      "packed_bytes_estimate": 528808,
+      "validation": {
+        "accuracy": 0.517,
+        "ce": 1.48406953125
+      },
+      "test": {
+        "accuracy": 0.5133,
+        "ce": 1.467909375
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 1,
+      "rank": 31,
+      "method": "factor_int8",
+      "best_epoch": 35,
+      "packed_bytes_estimate": 137248,
+      "validation": {
+        "accuracy": 0.5166,
+        "ce": 1.48468935546875
+      },
+      "test": {
+        "accuracy": 0.5136,
+        "ce": 1.46891201171875
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 1,
+      "rank": 31,
+      "method": "factor_int8_ridge",
+      "best_epoch": 35,
+      "packed_bytes_estimate": 137248,
+      "validation": {
+        "accuracy": 0.5162,
+        "ce": 1.48403818359375
+      },
+      "test": {
+        "accuracy": 0.5139,
+        "ce": 1.46822265625
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 2,
+      "rank": 31,
+      "method": "factor_fp32",
+      "best_epoch": 16,
+      "packed_bytes_estimate": 528808,
+      "validation": {
+        "accuracy": 0.526,
+        "ce": 1.399344921875
+      },
+      "test": {
+        "accuracy": 0.5052,
+        "ce": 1.41385087890625
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 2,
+      "rank": 31,
+      "method": "factor_int8",
+      "best_epoch": 16,
+      "packed_bytes_estimate": 137248,
+      "validation": {
+        "accuracy": 0.5268,
+        "ce": 1.399335546875
+      },
+      "test": {
+        "accuracy": 0.5056,
+        "ce": 1.41381728515625
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 2,
+      "rank": 31,
+      "method": "factor_int8_ridge",
+      "best_epoch": 16,
+      "packed_bytes_estimate": 137248,
+      "validation": {
+        "accuracy": 0.5264,
+        "ce": 1.399368359375
+      },
+      "test": {
+        "accuracy": 0.5045,
+        "ce": 1.4138427734375
+      }
+    }
+  ]
+}

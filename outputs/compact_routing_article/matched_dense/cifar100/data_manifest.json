@@ -1,0 +1,23 @@
+{
+  "dataset": "CIFAR-100",
+  "archive_md5": "eb9058c3a382ffc7106e4002c42a8d85",
+  "archive_sha256": "85cd44d02ba6437773c5bbd22e183051d648de2e7d6b014e1ef29b855ba677a7",
+  "split_seed": 20261027,
+  "split_sha256": "196de40bb38616eddac400ffa7d193c5379d7aa6074e788e1c1f28a8e0f1326d",
+  "sizes": [
+    45000,
+    5000,
+    10000
+  ],
+  "channel_mean": [
+    0.5070296938827614,
+    0.486415350881672,
+    0.4405656068729578
+  ],
+  "channel_std": [
+    0.2674948716646812,
+    0.2566128773910058,
+    0.2761354881616188
+  ],
+  "augmentation": false
+}

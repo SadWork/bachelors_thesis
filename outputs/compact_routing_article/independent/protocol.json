@@ -1,0 +1,27 @@
+{
+  "dataset": "CIFAR-100 official fine labels",
+  "selection": "Maximum validation accuracy, earliest checkpoint on ties",
+  "epochs": 400,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "teacher": "logit_pre rank 8 width 160 depth 4",
+  "controls": [
+    "factor_dense rank 8 width 160 depth 4",
+    "full_dense width 160 depth 4"
+  ],
+  "frozen_export_comparisons": [
+    "global uniform tail K64 in first layer",
+    "8x8 RGB tile tail K64 in first layer",
+    "8x8 RGB tile tail K96 in first layer",
+    "uniform tail K=(128,64,128,64) with and without train-only ridge using 1536 examples",
+    "three fixed random tile assignments with the same groups and K64",
+    "CIFAR-10-selected K=(64,32,64,32), uniform tail vs train-only ridge vs layer simplex refit and ridge",
+    "Dense with per-row symmetric 2-, 4- or 8-bit weight rounding",
+    "BiReLU of omitted-group mean vs exact nonlinear group tail at identical masses and K64, both fixed from CIFAR-10/Fashion mechanism"
+  ],
+  "test_use": "Evaluate frozen exports on test without retuning on CIFAR-100",
+  "calibration": "1536 train examples: 15 per class plus 36 from remaining train, seed 1223091"
+}

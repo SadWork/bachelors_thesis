@@ -1,0 +1,2318 @@
+[
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "full",
+    "ks": null,
+    "method": "full",
+    "accuracy_pct": 50.74,
+    "ce": 1.4215257005691528,
+    "explicit_scalar_edges": 568320,
+    "routing_cache_bytes": 2273280,
+    "resident_bytes_with_affine_and_head": 2284840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 49.5,
+    "ce": 1.4540659393310547,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 327680,
+    "resident_bytes_with_affine_and_head": 339240
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 50.12,
+    "ce": 1.431480856513977,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 330240,
+    "resident_bytes_with_affine_and_head": 341800
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 42.34,
+    "ce": 1.7309513145446778,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 163840,
+    "resident_bytes_with_affine_and_head": 175400
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 47.8,
+    "ce": 1.500287532234192,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 44.72,
+    "ce": 1.6235182403564452,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 49.58,
+    "ce": 1.4463609544754028,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 45.52,
+    "ce": 1.560901679611206,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 48.74,
+    "ce": 1.4878857595443726,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "renorm",
+    "accuracy_pct": 46.84,
+    "ce": 1.5330967685699464,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 49.88,
+    "ce": 1.4371498573303223,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 47.62,
+    "ce": 1.4947146911621094,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 49.6,
+    "ce": 1.4462281688690186,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 46.42,
+    "ce": 1.529792036819458,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 48.6,
+    "ce": 1.4902584804534913,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 48.28,
+    "ce": 1.476801488494873,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 50.14,
+    "ce": 1.4315349668502808,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 46.74,
+    "ce": 1.5472688957214356,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 49.92,
+    "ce": 1.4338265171051026,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 46.92,
+    "ce": 1.5129243087768556,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 49.76,
+    "ce": 1.4424762630462646,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "renorm",
+    "accuracy_pct": 40.92,
+    "ce": 1.8259041934967042,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 204800,
+    "resident_bytes_with_affine_and_head": 216360
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 44.84,
+    "ce": 1.679558606338501,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 207360,
+    "resident_bytes_with_affine_and_head": 218920
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "full",
+    "ks": null,
+    "method": "full",
+    "accuracy_pct": 52.2,
+    "ce": 1.3754963220596312,
+    "explicit_scalar_edges": 568320,
+    "routing_cache_bytes": 2273280,
+    "resident_bytes_with_affine_and_head": 2284840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 51.98,
+    "ce": 1.3891926160812378,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 327680,
+    "resident_bytes_with_affine_and_head": 339240
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 52.0,
+    "ce": 1.3795167768478394,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 330240,
+    "resident_bytes_with_affine_and_head": 341800
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 46.1,
+    "ce": 1.597340756225586,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 163840,
+    "resident_bytes_with_affine_and_head": 175400
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 49.92,
+    "ce": 1.4444539501190186,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 50.22,
+    "ce": 1.442014129638672,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 51.78,
+    "ce": 1.389216505241394,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 48.24,
+    "ce": 1.5028908306121826,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 50.34,
+    "ce": 1.4332080116271972,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "renorm",
+    "accuracy_pct": 51.88,
+    "ce": 1.3940561939239502,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 51.98,
+    "ce": 1.378320209312439,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 50.46,
+    "ce": 1.4234460493087768,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 51.62,
+    "ce": 1.3902595907211304,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 50.48,
+    "ce": 1.423884670639038,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 50.56,
+    "ce": 1.4313816135406494,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 48.54,
+    "ce": 1.4801127429962158,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 52.18,
+    "ce": 1.3840288969039918,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 50.12,
+    "ce": 1.446256893348694,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 51.78,
+    "ce": 1.3895377159118651,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 52.14,
+    "ce": 1.3890359031677246,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 52.0,
+    "ce": 1.379356640815735,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "renorm",
+    "accuracy_pct": 32.98,
+    "ce": 2.7137734939575195,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 204800,
+    "resident_bytes_with_affine_and_head": 216360
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 40.0,
+    "ce": 1.9389703941345215,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 207360,
+    "resident_bytes_with_affine_and_head": 218920
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "full",
+    "ks": null,
+    "method": "full",
+    "accuracy_pct": 51.6,
+    "ce": 1.393359672164917,
+    "explicit_scalar_edges": 568320,
+    "routing_cache_bytes": 2273280,
+    "resident_bytes_with_affine_and_head": 2284840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 50.42,
+    "ce": 1.4143441934585572,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 327680,
+    "resident_bytes_with_affine_and_head": 339240
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 50.88,
+    "ce": 1.4069649515151978,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 330240,
+    "resident_bytes_with_affine_and_head": 341800
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 40.94,
+    "ce": 1.93831513671875,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 163840,
+    "resident_bytes_with_affine_and_head": 175400
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 48.5,
+    "ce": 1.5029071016311646,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 41.98,
+    "ce": 1.802062839126587,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 49.1,
+    "ce": 1.4600811733245849,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 46.88,
+    "ce": 1.5848297815322876,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 48.28,
+    "ce": 1.4716635152816773,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "renorm",
+    "accuracy_pct": 49.62,
+    "ce": 1.443213591003418,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 50.9,
+    "ce": 1.4105879428863526,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 49.26,
+    "ce": 1.4597905305862426,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 50.38,
+    "ce": 1.4256928548812866,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 49.8,
+    "ce": 1.4877722332000733,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 48.86,
+    "ce": 1.4619114089965821,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 47.6,
+    "ce": 1.5435217012405396,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 50.56,
+    "ce": 1.4149179838180541,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 42.14,
+    "ce": 1.7962380168914795,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 49.14,
+    "ce": 1.4604609121322631,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 50.42,
+    "ce": 1.4146117321014404,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 50.98,
+    "ce": 1.406876177597046,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "renorm",
+    "accuracy_pct": 26.98,
+    "ce": 3.573818958282471,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 204800,
+    "resident_bytes_with_affine_and_head": 216360
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 48.82,
+    "ce": 1.4811182651519776,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 207360,
+    "resident_bytes_with_affine_and_head": 218920
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "full",
+    "ks": null,
+    "method": "full",
+    "accuracy_pct": 86.26,
+    "ce": 0.38703631756305695,
+    "explicit_scalar_edges": 202240,
+    "routing_cache_bytes": 808960,
+    "resident_bytes_with_affine_and_head": 820520
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 85.2,
+    "ce": 0.3976692937672138,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 327680,
+    "resident_bytes_with_affine_and_head": 339240
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.96,
+    "ce": 0.3868336041212082,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 330240,
+    "resident_bytes_with_affine_and_head": 341800
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 62.84,
+    "ce": 1.296805366563797,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 163840,
+    "resident_bytes_with_affine_and_head": 175400
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 84.8,
+    "ce": 0.4118403019398451,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 76.64,
+    "ce": 0.6478258918881417,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.9,
+    "ce": 0.3881056425571442,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 67.16,
+    "ce": 1.038664248108864,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 84.4,
+    "ce": 0.4149848008841276,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "renorm",
+    "accuracy_pct": 81.9,
+    "ce": 0.47769206572175027,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.86,
+    "ce": 0.38668079174757003,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 81.06,
+    "ce": 0.5237037761569023,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.86,
+    "ce": 0.39011306521892547,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 84.04,
+    "ce": 0.447538338637352,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 84.74,
+    "ce": 0.4141429309219122,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 66.74,
+    "ce": 1.0769083594322204,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.76,
+    "ce": 0.39267602372169497,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 76.22,
+    "ce": 0.6686775784850121,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 86.24,
+    "ce": 0.3863313537955284,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 83.98,
+    "ce": 0.43414083822369576,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.84,
+    "ce": 0.38764982105493545,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "renorm",
+    "accuracy_pct": 73.08,
+    "ce": 0.8436262919664383,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 204800,
+    "resident_bytes_with_affine_and_head": 216360
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 83.62,
+    "ce": 0.45934326958656313,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 207360,
+    "resident_bytes_with_affine_and_head": 218920
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "full",
+    "ks": null,
+    "method": "full",
+    "accuracy_pct": 86.54,
+    "ce": 0.3748997265666723,
+    "explicit_scalar_edges": 202240,
+    "routing_cache_bytes": 808960,
+    "resident_bytes_with_affine_and_head": 820520
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 80.6,
+    "ce": 0.5606207123346627,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 327680,
+    "resident_bytes_with_affine_and_head": 339240
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 86.14,
+    "ce": 0.3913526358872652,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 330240,
+    "resident_bytes_with_affine_and_head": 341800
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 46.28,
+    "ce": 4.37143402055502,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 163840,
+    "resident_bytes_with_affine_and_head": 175400
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.32,
+    "ce": 0.4001383115291595,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 79.62,
+    "ce": 0.60724478456676,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 86.58,
+    "ce": 0.3835575417920947,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 47.84,
+    "ce": 4.142546600341797,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.76,
+    "ce": 0.39436732115745543,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "renorm",
+    "accuracy_pct": 80.3,
+    "ce": 0.5824123047098517,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 86.3,
+    "ce": 0.3883193614244461,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 60.72,
+    "ce": 1.6532139627575875,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.96,
+    "ce": 0.4006338030815125,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 70.56,
+    "ce": 1.037565749983117,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.5,
+    "ce": 0.4032102478384972,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 50.24,
+    "ce": 3.3820482089698314,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 86.28,
+    "ce": 0.3888843350425363,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 80.54,
+    "ce": 0.5732478255257011,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 86.08,
+    "ce": 0.3912974115461111,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 79.98,
+    "ce": 0.5871737508565188,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 86.6,
+    "ce": 0.3827412479609251,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "renorm",
+    "accuracy_pct": 80.4,
+    "ce": 0.5743217426657676,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 204800,
+    "resident_bytes_with_affine_and_head": 216360
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 82.72,
+    "ce": 0.4581468887269497,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 207360,
+    "resident_bytes_with_affine_and_head": 218920
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "full",
+    "ks": null,
+    "method": "full",
+    "accuracy_pct": 86.1,
+    "ce": 0.3799608446598053,
+    "explicit_scalar_edges": 202240,
+    "routing_cache_bytes": 808960,
+    "resident_bytes_with_affine_and_head": 820520
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 86.06,
+    "ce": 0.389494275790453,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 327680,
+    "resident_bytes_with_affine_and_head": 339240
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.8,
+    "ce": 0.392730177757144,
+    "explicit_scalar_edges": 81920,
+    "routing_cache_bytes": 330240,
+    "resident_bytes_with_affine_and_head": 341800
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 80.68,
+    "ce": 0.5512764164686202,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 163840,
+    "resident_bytes_with_affine_and_head": 175400
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 83.02,
+    "ce": 0.4787841641642153,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 85.08,
+    "ce": 0.4099439515382051,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.76,
+    "ce": 0.39373106126636265,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 82.06,
+    "ce": 0.5034139218688011,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 245760,
+    "resident_bytes_with_affine_and_head": 257320
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "focus_24",
+    "ks": [
+      64,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 82.94,
+    "ce": 0.47745043668597936,
+    "explicit_scalar_edges": 61440,
+    "routing_cache_bytes": 248320,
+    "resident_bytes_with_affine_and_head": 259880
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "renorm",
+    "accuracy_pct": 85.82,
+    "ce": 0.3930334681600332,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.94,
+    "ce": 0.3917049702748656,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 85.58,
+    "ce": 0.40639294540286064,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "moderate_24",
+    "ks": [
+      96,
+      128,
+      96,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.48,
+    "ce": 0.40534157005250454,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 82.92,
+    "ce": 0.4893745487824082,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "trim_first_only",
+    "ks": [
+      64,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 83.0,
+    "ce": 0.475970859195292,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 84.36,
+    "ce": 0.4314870383024216,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "trim_third_only",
+    "ks": [
+      128,
+      128,
+      64,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.1,
+    "ce": 0.4198013724826276,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "renorm",
+    "accuracy_pct": 86.16,
+    "ce": 0.39103303108066323,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "trim_second_only",
+    "ks": [
+      128,
+      64,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.9,
+    "ce": 0.39432653259336947,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "renorm",
+    "accuracy_pct": 85.3,
+    "ce": 0.41103662594407797,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 286720,
+    "resident_bytes_with_affine_and_head": 298280
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "trim_fourth_only",
+    "ks": [
+      128,
+      128,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 85.78,
+    "ce": 0.39258166206628087,
+    "explicit_scalar_edges": 71680,
+    "routing_cache_bytes": 289280,
+    "resident_bytes_with_affine_and_head": 300840
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "renorm",
+    "accuracy_pct": 83.1,
+    "ce": 0.49831371847465633,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 204800,
+    "resident_bytes_with_affine_and_head": 216360
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "configuration": "aggressive_13",
+    "ks": [
+      128,
+      32,
+      128,
+      32
+    ],
+    "method": "uniform_tail",
+    "accuracy_pct": 81.9,
+    "ce": 0.5219590721182525,
+    "explicit_scalar_edges": 51200,
+    "routing_cache_bytes": 207360,
+    "resident_bytes_with_affine_and_head": 218920
+  }
+]

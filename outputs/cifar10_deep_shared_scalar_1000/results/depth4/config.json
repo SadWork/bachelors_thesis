@@ -1,0 +1,42 @@
+{
+  "depth": 4,
+  "seed": 0,
+  "target_epoch": 1000,
+  "lr": 0.003,
+  "batch": 512,
+  "gpu": "Tesla T4",
+  "device": "cuda",
+  "torch": "2.14.1+cu130",
+  "jobs": [
+    {
+      "condition": {
+        "name": "no_kl",
+        "hidden_decay": 0.01,
+        "head_decay": 0.0,
+        "kl": 0.0
+      },
+      "start_epoch": 405,
+      "validation_at_start": {
+        "accuracy": 0.4904,
+        "ce": 1.44309833984375
+      },
+      "checkpoint_sha256": "d1dea10c4b4be0c1c37c755cbf100d9c17e3fa9fb5bd929444b99c3215541751",
+      "original_checkpoint_sha256": "0342aa6a45d34b8bb4c6c51d6e9dd0b9f48aeb3bbdca35c6788e211bb7546dac"
+    },
+    {
+      "condition": {
+        "name": "both_10",
+        "hidden_decay": 0.03,
+        "head_decay": 0.03,
+        "kl": 0.1
+      },
+      "start_epoch": 300,
+      "validation_at_start": {
+        "accuracy": 0.402,
+        "ce": 1.660912890625
+      },
+      "checkpoint_sha256": "8e440b86f3ffad3a7b3c18fb6f53f03e7ea6bfd5200f15c7505c64a9b8fa8f13",
+      "original_checkpoint_sha256": "ef65bb4af3bec98e3c8bf92ad42425be9273364604a970c09391238fd785dd97"
+    }
+  ]
+}

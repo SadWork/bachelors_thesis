@@ -1,0 +1,10 @@
+{
+  "phase": "complete",
+  "completed": [
+    "narrow_dense_r32_s0",
+    "factor_dense_r32_s0",
+    "mixture_post_r32_s0",
+    "mixture_pre_r32_s0",
+    "logit_pre_r32_s0"
+  ]
+}

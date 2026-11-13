@@ -1,0 +1,23 @@
+{
+  "dataset": "CIFAR-10",
+  "flatten_order": "CHW",
+  "archive_sha256": "6d958be074577803d12ecdefd02955f39262c83c16fe9348329d7fe0b5c001ce",
+  "split_seed": 20261027,
+  "split_sha256": "62b8be5987948a6a6cf8b9999fda324a6bc2baa3025f9f832f61d96c74f204f9",
+  "sizes": [
+    45000,
+    5000,
+    10000
+  ],
+  "channel_mean": [
+    0.49132432972494516,
+    0.48212977898624726,
+    0.4464758166530502
+  ],
+  "channel_std": [
+    0.24702409676653792,
+    0.24353371461141546,
+    0.26168715476180493
+  ],
+  "augmentation": false
+}

@@ -1,0 +1,72 @@
+{
+  "seed": 0,
+  "epochs": 500,
+  "device": "mps",
+  "lr": 0.003,
+  "batch": 512,
+  "conditions": [
+    {
+      "model": "dense",
+      "hidden_layers": 2,
+      "width": 160,
+      "decay": 0.0,
+      "kl": 0.0
+    },
+    {
+      "model": "mean",
+      "hidden_layers": 2,
+      "width": 160,
+      "decay": 0.0,
+      "kl": 0.0
+    },
+    {
+      "model": "dense",
+      "hidden_layers": 4,
+      "width": 160,
+      "decay": 0.0,
+      "kl": 0.0
+    },
+    {
+      "model": "mean",
+      "hidden_layers": 4,
+      "width": 160,
+      "decay": 0.0,
+      "kl": 0.0
+    },
+    {
+      "model": "dense",
+      "hidden_layers": 2,
+      "width": 160,
+      "decay": 0.03,
+      "kl": 0.0
+    },
+    {
+      "model": "mean",
+      "hidden_layers": 2,
+      "width": 160,
+      "decay": 0.03,
+      "kl": 0.1
+    },
+    {
+      "model": "dense",
+      "hidden_layers": 4,
+      "width": 160,
+      "decay": 0.03,
+      "kl": 0.0
+    },
+    {
+      "model": "mean",
+      "hidden_layers": 4,
+      "width": 160,
+      "decay": 0.03,
+      "kl": 0.1
+    }
+  ],
+  "sources": {
+    "mnist_depth_mean_compare/train.py": "86a794da3fe4fb6b815587835e5f6dd5c817474ca0e0d020036eaf1630205cf3",
+    "cifar10_shared_scalar_both_10_500/model.py": "7494c38b137cf01d6dedcca12804588acb4a338fbd783965e5e18a7ec9dc50ef",
+    "cifar10_shared_scalar_both_10_500/metal_mean.py": "e167e4540beafc628d51b75ac3c09276b2c903d4765f008717d0655ee52f88ad",
+    "cifar10_shared_scalar_both_10_500/mean.metal": "ece1d521a5878b628c20a58c58e0d99c2bbcd8ed5726f3a74da5cf9fccbe170e",
+    "ablation_birelu/base_experiment.py": "4418c8d01cbc94069cb16d37c6cafd5d3665f0901c5118545e09ff70786bb42d"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ranks": [
+    8
+  ],
+  "seeds": [
+    2
+  ],
+  "methods": [
+    "mixture_post",
+    "mixture_pre",
+    "logit_pre"
+  ],
+  "epochs": 800,
+  "device": "mps",
+  "torch": "2.13.0",
+  "learning_rate": 0.003,
+  "decay": 0.01,
+  "batch": 512
+}

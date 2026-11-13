@@ -1,0 +1,19 @@
+{
+  "ks": [
+    32,
+    32,
+    64,
+    32
+  ],
+  "tiles": [
+    8,
+    16
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+  "selection": "Smallest packed size within 1pp of teacher mean validation accuracy"
+}

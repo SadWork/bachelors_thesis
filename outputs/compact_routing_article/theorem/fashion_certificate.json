@@ -1,0 +1,164 @@
+[
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "k": 32,
+    "examples": 500,
+    "prediction_agreement": 0.924,
+    "approximation_accuracy": 0.84,
+    "first_layer_avg_width_cap": 0.518808104475495,
+    "first_layer_avg_width_norm": 0.7214793000062646,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.002,
+      "norm_interval": 0.0,
+      "norm_linear": 0.0,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.002
+    }
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "k": 64,
+    "examples": 500,
+    "prediction_agreement": 0.978,
+    "approximation_accuracy": 0.862,
+    "first_layer_avg_width_cap": 0.2426421955406392,
+    "first_layer_avg_width_norm": 0.3170576049864336,
+    "certified": {
+      "cap_interval": 0.002,
+      "cap_linear": 0.008,
+      "norm_interval": 0.002,
+      "norm_linear": 0.002,
+      "intersection_interval": 0.002,
+      "intersection_linear": 0.008
+    }
+  },
+  {
+    "dataset": "fashion",
+    "seed": 0,
+    "k": 96,
+    "examples": 500,
+    "prediction_agreement": 0.986,
+    "approximation_accuracy": 0.858,
+    "first_layer_avg_width_cap": 0.13182699920923482,
+    "first_layer_avg_width_norm": 0.16124751497748097,
+    "certified": {
+      "cap_interval": 0.034,
+      "cap_linear": 0.34,
+      "norm_interval": 0.004,
+      "norm_linear": 0.186,
+      "intersection_interval": 0.04,
+      "intersection_linear": 0.35
+    }
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "k": 32,
+    "examples": 500,
+    "prediction_agreement": 0.948,
+    "approximation_accuracy": 0.836,
+    "first_layer_avg_width_cap": 0.20268000053461516,
+    "first_layer_avg_width_norm": 0.29705622229772144,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.0,
+      "norm_interval": 0.0,
+      "norm_linear": 0.0,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.0
+    }
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "k": 64,
+    "examples": 500,
+    "prediction_agreement": 0.968,
+    "approximation_accuracy": 0.846,
+    "first_layer_avg_width_cap": 0.07201333155618424,
+    "first_layer_avg_width_norm": 0.09799802189057268,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.012,
+      "norm_interval": 0.0,
+      "norm_linear": 0.002,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.012
+    }
+  },
+  {
+    "dataset": "fashion",
+    "seed": 1,
+    "k": 96,
+    "examples": 500,
+    "prediction_agreement": 0.974,
+    "approximation_accuracy": 0.854,
+    "first_layer_avg_width_cap": 0.03332407220303805,
+    "first_layer_avg_width_norm": 0.04274500502872415,
+    "certified": {
+      "cap_interval": 0.014,
+      "cap_linear": 0.204,
+      "norm_interval": 0.002,
+      "norm_linear": 0.074,
+      "intersection_interval": 0.02,
+      "intersection_linear": 0.204
+    }
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "k": 32,
+    "examples": 500,
+    "prediction_agreement": 0.928,
+    "approximation_accuracy": 0.842,
+    "first_layer_avg_width_cap": 0.4460992700580686,
+    "first_layer_avg_width_norm": 0.5937391864564586,
+    "certified": {
+      "cap_interval": 0.0,
+      "cap_linear": 0.002,
+      "norm_interval": 0.0,
+      "norm_linear": 0.0,
+      "intersection_interval": 0.0,
+      "intersection_linear": 0.002
+    }
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "k": 64,
+    "examples": 500,
+    "prediction_agreement": 0.97,
+    "approximation_accuracy": 0.854,
+    "first_layer_avg_width_cap": 0.21485235047432188,
+    "first_layer_avg_width_norm": 0.26416927529153156,
+    "certified": {
+      "cap_interval": 0.004,
+      "cap_linear": 0.02,
+      "norm_interval": 0.002,
+      "norm_linear": 0.006,
+      "intersection_interval": 0.004,
+      "intersection_linear": 0.02
+    }
+  },
+  {
+    "dataset": "fashion",
+    "seed": 2,
+    "k": 96,
+    "examples": 500,
+    "prediction_agreement": 0.978,
+    "approximation_accuracy": 0.856,
+    "first_layer_avg_width_cap": 0.12227484599483714,
+    "first_layer_avg_width_norm": 0.1403885701754665,
+    "certified": {
+      "cap_interval": 0.074,
+      "cap_linear": 0.218,
+      "norm_interval": 0.018,
+      "norm_linear": 0.102,
+      "intersection_interval": 0.084,
+      "intersection_linear": 0.236
+    }
+  }
+]

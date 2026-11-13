@@ -1,0 +1,293 @@
+{
+  "sample_sha256": "b17f5448ac7319931896081a0e1ce1de88add0236a8c2d537619292f2cbec2d3",
+  "rows": [
+    {
+      "seed": 0,
+      "k": 64,
+      "grouping": "global",
+      "groups": 1,
+      "teacher_validation": {
+        "accuracy": 0.5074,
+        "ce": 1.4215258359909058
+      },
+      "validation": {
+        "accuracy": 0.486,
+        "ce": 1.4900734424591064
+      },
+      "layer_mse": 0.0010035607429528697,
+      "mse_samples": 512
+    },
+    {
+      "seed": 0,
+      "k": 64,
+      "grouping": "channel",
+      "groups": 3,
+      "teacher_validation": {
+        "accuracy": 0.5074,
+        "ce": 1.4215258359909058
+      },
+      "validation": {
+        "accuracy": 0.4866,
+        "ce": 1.4793158769607544
+      },
+      "layer_mse": 0.000939182119168684,
+      "mse_samples": 512
+    },
+    {
+      "seed": 0,
+      "k": 64,
+      "grouping": "tiles",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.5074,
+        "ce": 1.4215258359909058
+      },
+      "validation": {
+        "accuracy": 0.5026,
+        "ce": 1.4290844202041626
+      },
+      "layer_mse": 0.00018341282877352803,
+      "mse_samples": 512
+    },
+    {
+      "seed": 0,
+      "k": 64,
+      "grouping": "random_tiles_s0",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.5074,
+        "ce": 1.4215258359909058
+      },
+      "validation": {
+        "accuracy": 0.4886,
+        "ce": 1.477910041809082
+      },
+      "layer_mse": 0.0009181841838404366,
+      "mse_samples": 512
+    },
+    {
+      "seed": 0,
+      "k": 64,
+      "grouping": "random_tiles_s1",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.5074,
+        "ce": 1.4215258359909058
+      },
+      "validation": {
+        "accuracy": 0.487,
+        "ce": 1.4774012565612793
+      },
+      "layer_mse": 0.0009347993548417969,
+      "mse_samples": 512
+    },
+    {
+      "seed": 0,
+      "k": 64,
+      "grouping": "random_tiles_s2",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.5074,
+        "ce": 1.4215258359909058
+      },
+      "validation": {
+        "accuracy": 0.488,
+        "ce": 1.4792845249176025
+      },
+      "layer_mse": 0.0009274054615842897,
+      "mse_samples": 512
+    },
+    {
+      "seed": 1,
+      "k": 64,
+      "grouping": "global",
+      "groups": 1,
+      "teacher_validation": {
+        "accuracy": 0.522,
+        "ce": 1.3754963874816895
+      },
+      "validation": {
+        "accuracy": 0.506,
+        "ce": 1.4337449073791504
+      },
+      "layer_mse": 0.0008141230678697318,
+      "mse_samples": 512
+    },
+    {
+      "seed": 1,
+      "k": 64,
+      "grouping": "channel",
+      "groups": 3,
+      "teacher_validation": {
+        "accuracy": 0.522,
+        "ce": 1.3754963874816895
+      },
+      "validation": {
+        "accuracy": 0.5068,
+        "ce": 1.430751085281372
+      },
+      "layer_mse": 0.0007469450628526023,
+      "mse_samples": 512
+    },
+    {
+      "seed": 1,
+      "k": 64,
+      "grouping": "tiles",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.522,
+        "ce": 1.3754963874816895
+      },
+      "validation": {
+        "accuracy": 0.52,
+        "ce": 1.3794333934783936
+      },
+      "layer_mse": 0.00014419978069919406,
+      "mse_samples": 512
+    },
+    {
+      "seed": 1,
+      "k": 64,
+      "grouping": "random_tiles_s0",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.522,
+        "ce": 1.3754963874816895
+      },
+      "validation": {
+        "accuracy": 0.5064,
+        "ce": 1.4296250343322754
+      },
+      "layer_mse": 0.0007292658827228799,
+      "mse_samples": 512
+    },
+    {
+      "seed": 1,
+      "k": 64,
+      "grouping": "random_tiles_s1",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.522,
+        "ce": 1.3754963874816895
+      },
+      "validation": {
+        "accuracy": 0.508,
+        "ce": 1.4275802373886108
+      },
+      "layer_mse": 0.0007295721359908607,
+      "mse_samples": 512
+    },
+    {
+      "seed": 1,
+      "k": 64,
+      "grouping": "random_tiles_s2",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.522,
+        "ce": 1.3754963874816895
+      },
+      "validation": {
+        "accuracy": 0.506,
+        "ce": 1.429359793663025
+      },
+      "layer_mse": 0.0007373164449066469,
+      "mse_samples": 512
+    },
+    {
+      "seed": 2,
+      "k": 64,
+      "grouping": "global",
+      "groups": 1,
+      "teacher_validation": {
+        "accuracy": 0.516,
+        "ce": 1.3933597803115845
+      },
+      "validation": {
+        "accuracy": 0.4914,
+        "ce": 1.4618749618530273
+      },
+      "layer_mse": 0.003109405141813953,
+      "mse_samples": 512
+    },
+    {
+      "seed": 2,
+      "k": 64,
+      "grouping": "channel",
+      "groups": 3,
+      "teacher_validation": {
+        "accuracy": 0.516,
+        "ce": 1.3933597803115845
+      },
+      "validation": {
+        "accuracy": 0.4942,
+        "ce": 1.45297110080719
+      },
+      "layer_mse": 0.003011246181754937,
+      "mse_samples": 512
+    },
+    {
+      "seed": 2,
+      "k": 64,
+      "grouping": "tiles",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.516,
+        "ce": 1.3933597803115845
+      },
+      "validation": {
+        "accuracy": 0.512,
+        "ce": 1.4001554250717163
+      },
+      "layer_mse": 0.00035073119748425666,
+      "mse_samples": 512
+    },
+    {
+      "seed": 2,
+      "k": 64,
+      "grouping": "random_tiles_s0",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.516,
+        "ce": 1.3933597803115845
+      },
+      "validation": {
+        "accuracy": 0.4934,
+        "ce": 1.4525057077407837
+      },
+      "layer_mse": 0.0029223514437905747,
+      "mse_samples": 512
+    },
+    {
+      "seed": 2,
+      "k": 64,
+      "grouping": "random_tiles_s1",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.516,
+        "ce": 1.3933597803115845
+      },
+      "validation": {
+        "accuracy": 0.493,
+        "ce": 1.4529780149459839
+      },
+      "layer_mse": 0.00301994317749526,
+      "mse_samples": 512
+    },
+    {
+      "seed": 2,
+      "k": 64,
+      "grouping": "random_tiles_s2",
+      "groups": 48,
+      "teacher_validation": {
+        "accuracy": 0.516,
+        "ce": 1.3933597803115845
+      },
+      "validation": {
+        "accuracy": 0.4938,
+        "ce": 1.4523364305496216
+      },
+      "layer_mse": 0.0029979931336721146,
+      "mse_samples": 512
+    }
+  ]
+}

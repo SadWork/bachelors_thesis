@@ -1,0 +1,80 @@
+[
+  {
+    "seed": 0,
+    "tile": 8,
+    "validation": {
+      "accuracy_pct": 49.559999999999995,
+      "ce": 1.4375802278518677
+    },
+    "teacher_validation": {
+      "accuracy_pct": 50.739999999999995,
+      "ce": 1.4215258359909058
+    },
+    "packed_bytes_estimate": 131880
+  },
+  {
+    "seed": 0,
+    "tile": 16,
+    "validation": {
+      "accuracy_pct": 49.02,
+      "ce": 1.454773187637329
+    },
+    "teacher_validation": {
+      "accuracy_pct": 50.739999999999995,
+      "ce": 1.4215258359909058
+    },
+    "packed_bytes_estimate": 120360
+  },
+  {
+    "seed": 1,
+    "tile": 8,
+    "validation": {
+      "accuracy_pct": 51.85999999999999,
+      "ce": 1.3827635049819946
+    },
+    "teacher_validation": {
+      "accuracy_pct": 52.2,
+      "ce": 1.3754961490631104
+    },
+    "packed_bytes_estimate": 131880
+  },
+  {
+    "seed": 1,
+    "tile": 16,
+    "validation": {
+      "accuracy_pct": 51.42,
+      "ce": 1.3979440927505493
+    },
+    "teacher_validation": {
+      "accuracy_pct": 52.2,
+      "ce": 1.3754961490631104
+    },
+    "packed_bytes_estimate": 120360
+  },
+  {
+    "seed": 2,
+    "tile": 8,
+    "validation": {
+      "accuracy_pct": 50.32,
+      "ce": 1.4053990840911865
+    },
+    "teacher_validation": {
+      "accuracy_pct": 51.6,
+      "ce": 1.393359661102295
+    },
+    "packed_bytes_estimate": 131880
+  },
+  {
+    "seed": 2,
+    "tile": 16,
+    "validation": {
+      "accuracy_pct": 49.7,
+      "ce": 1.4167405366897583
+    },
+    "teacher_validation": {
+      "accuracy_pct": 51.6,
+      "ce": 1.393359661102295
+    },
+    "packed_bytes_estimate": 120360
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "phase": "training",
+  "run": "mixture_post_r8_s2",
+  "epoch": 480,
+  "validation": {
+    "accuracy": 0.3632,
+    "ce": 1.752043359375
+  },
+  "completed": [
+    "narrow_dense_r8_s1",
+    "factor_dense_r8_s1",
+    "mixture_post_r8_s1",
+    "mixture_pre_r8_s1",
+    "logit_pre_r8_s1",
+    "narrow_dense_r8_s2",
+    "factor_dense_r8_s2"
+  ]
+}

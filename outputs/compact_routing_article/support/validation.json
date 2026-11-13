@@ -1,0 +1,599 @@
+[
+  {
+    "seed": 0,
+    "schedule": "full",
+    "method": "teacher",
+    "accuracy_pct": 50.739999999999995,
+    "ce": 1.4215258359909058
+  },
+  {
+    "seed": 0,
+    "schedule": "all32",
+    "ks": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 47.54,
+    "ce": 1.4848370552062988,
+    "explicit_scalar_edges": 20480,
+    "routing_cache_bytes": 84480,
+    "resident_bytes_with_affine_and_head": 96040
+  },
+  {
+    "seed": 0,
+    "schedule": "all32",
+    "ks": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 48.96,
+    "ce": 1.4674830436706543,
+    "explicit_scalar_edges": 20480,
+    "routing_cache_bytes": 84480,
+    "resident_bytes_with_affine_and_head": 96040
+  },
+  {
+    "seed": 0,
+    "schedule": "all32",
+    "ks": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 48.52,
+    "ce": 1.4602233171463013,
+    "explicit_scalar_edges": 20480,
+    "routing_cache_bytes": 84480,
+    "resident_bytes_with_affine_and_head": 96040
+  },
+  {
+    "seed": 0,
+    "schedule": "focus32",
+    "ks": [
+      64,
+      32,
+      64,
+      32
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 49.26,
+    "ce": 1.4445514678955078,
+    "explicit_scalar_edges": 30720,
+    "routing_cache_bytes": 125440,
+    "resident_bytes_with_affine_and_head": 137000
+  },
+  {
+    "seed": 0,
+    "schedule": "focus32",
+    "ks": [
+      64,
+      32,
+      64,
+      32
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 49.58,
+    "ce": 1.4373382329940796,
+    "explicit_scalar_edges": 30720,
+    "routing_cache_bytes": 125440,
+    "resident_bytes_with_affine_and_head": 137000
+  },
+  {
+    "seed": 0,
+    "schedule": "focus32",
+    "ks": [
+      64,
+      32,
+      64,
+      32
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 49.480000000000004,
+    "ce": 1.4375723600387573,
+    "explicit_scalar_edges": 30720,
+    "routing_cache_bytes": 125440,
+    "resident_bytes_with_affine_and_head": 137000
+  },
+  {
+    "seed": 0,
+    "schedule": "all64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 49.62,
+    "ce": 1.44137704372406,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "seed": 0,
+    "schedule": "all64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 49.919999999999995,
+    "ce": 1.4333828687667847,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "seed": 0,
+    "schedule": "all64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 49.74,
+    "ce": 1.435585379600525,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "seed": 0,
+    "schedule": "all16",
+    "ks": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 43.5,
+    "ce": 1.5955511331558228,
+    "explicit_scalar_edges": 10240,
+    "routing_cache_bytes": 43520,
+    "resident_bytes_with_affine_and_head": 55080
+  },
+  {
+    "seed": 0,
+    "schedule": "all16",
+    "ks": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 46.0,
+    "ce": 1.539699673652649,
+    "explicit_scalar_edges": 10240,
+    "routing_cache_bytes": 43520,
+    "resident_bytes_with_affine_and_head": 55080
+  },
+  {
+    "seed": 0,
+    "schedule": "all16",
+    "ks": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 46.88,
+    "ce": 1.513576626777649,
+    "explicit_scalar_edges": 10240,
+    "routing_cache_bytes": 43520,
+    "resident_bytes_with_affine_and_head": 55080
+  },
+  {
+    "seed": 1,
+    "schedule": "full",
+    "method": "teacher",
+    "accuracy_pct": 52.2,
+    "ce": 1.3754961490631104
+  },
+  {
+    "seed": 1,
+    "schedule": "all32",
+    "ks": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 49.38,
+    "ce": 1.443845272064209,
+    "explicit_scalar_edges": 20480,
+    "routing_cache_bytes": 84480,
+    "resident_bytes_with_affine_and_head": 96040
+  },
+  {
+    "seed": 1,
+    "schedule": "all32",
+    "ks": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 51.2,
+    "ce": 1.4051061868667603,
+    "explicit_scalar_edges": 20480,
+    "routing_cache_bytes": 84480,
+    "resident_bytes_with_affine_and_head": 96040
+  },
+  {
+    "seed": 1,
+    "schedule": "all32",
+    "ks": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 51.22,
+    "ce": 1.4075162410736084,
+    "explicit_scalar_edges": 20480,
+    "routing_cache_bytes": 84480,
+    "resident_bytes_with_affine_and_head": 96040
+  },
+  {
+    "seed": 1,
+    "schedule": "focus32",
+    "ks": [
+      64,
+      32,
+      64,
+      32
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 51.04,
+    "ce": 1.4069005250930786,
+    "explicit_scalar_edges": 30720,
+    "routing_cache_bytes": 125440,
+    "resident_bytes_with_affine_and_head": 137000
+  },
+  {
+    "seed": 1,
+    "schedule": "focus32",
+    "ks": [
+      64,
+      32,
+      64,
+      32
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 51.85999999999999,
+    "ce": 1.3849726915359497,
+    "explicit_scalar_edges": 30720,
+    "routing_cache_bytes": 125440,
+    "resident_bytes_with_affine_and_head": 137000
+  },
+  {
+    "seed": 1,
+    "schedule": "focus32",
+    "ks": [
+      64,
+      32,
+      64,
+      32
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 51.85999999999999,
+    "ce": 1.3870437145233154,
+    "explicit_scalar_edges": 30720,
+    "routing_cache_bytes": 125440,
+    "resident_bytes_with_affine_and_head": 137000
+  },
+  {
+    "seed": 1,
+    "schedule": "all64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 51.300000000000004,
+    "ce": 1.394724726676941,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "seed": 1,
+    "schedule": "all64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 51.7,
+    "ce": 1.3843002319335938,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "seed": 1,
+    "schedule": "all64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 51.580000000000005,
+    "ce": 1.3848353624343872,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "seed": 1,
+    "schedule": "all16",
+    "ks": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 47.24,
+    "ce": 1.5180248022079468,
+    "explicit_scalar_edges": 10240,
+    "routing_cache_bytes": 43520,
+    "resident_bytes_with_affine_and_head": 55080
+  },
+  {
+    "seed": 1,
+    "schedule": "all16",
+    "ks": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 48.0,
+    "ce": 1.4667507410049438,
+    "explicit_scalar_edges": 10240,
+    "routing_cache_bytes": 43520,
+    "resident_bytes_with_affine_and_head": 55080
+  },
+  {
+    "seed": 1,
+    "schedule": "all16",
+    "ks": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 49.220000000000006,
+    "ce": 1.44559645652771,
+    "explicit_scalar_edges": 10240,
+    "routing_cache_bytes": 43520,
+    "resident_bytes_with_affine_and_head": 55080
+  },
+  {
+    "seed": 2,
+    "schedule": "full",
+    "method": "teacher",
+    "accuracy_pct": 51.6,
+    "ce": 1.393359661102295
+  },
+  {
+    "seed": 2,
+    "schedule": "all32",
+    "ks": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 49.14,
+    "ce": 1.4625489711761475,
+    "explicit_scalar_edges": 20480,
+    "routing_cache_bytes": 84480,
+    "resident_bytes_with_affine_and_head": 96040
+  },
+  {
+    "seed": 2,
+    "schedule": "all32",
+    "ks": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 49.24,
+    "ce": 1.4293123483657837,
+    "explicit_scalar_edges": 20480,
+    "routing_cache_bytes": 84480,
+    "resident_bytes_with_affine_and_head": 96040
+  },
+  {
+    "seed": 2,
+    "schedule": "all32",
+    "ks": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 49.54,
+    "ce": 1.4229050874710083,
+    "explicit_scalar_edges": 20480,
+    "routing_cache_bytes": 84480,
+    "resident_bytes_with_affine_and_head": 96040
+  },
+  {
+    "seed": 2,
+    "schedule": "focus32",
+    "ks": [
+      64,
+      32,
+      64,
+      32
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 50.56,
+    "ce": 1.414396047592163,
+    "explicit_scalar_edges": 30720,
+    "routing_cache_bytes": 125440,
+    "resident_bytes_with_affine_and_head": 137000
+  },
+  {
+    "seed": 2,
+    "schedule": "focus32",
+    "ks": [
+      64,
+      32,
+      64,
+      32
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 50.839999999999996,
+    "ce": 1.4032641649246216,
+    "explicit_scalar_edges": 30720,
+    "routing_cache_bytes": 125440,
+    "resident_bytes_with_affine_and_head": 137000
+  },
+  {
+    "seed": 2,
+    "schedule": "focus32",
+    "ks": [
+      64,
+      32,
+      64,
+      32
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 50.68,
+    "ce": 1.3992434740066528,
+    "explicit_scalar_edges": 30720,
+    "routing_cache_bytes": 125440,
+    "resident_bytes_with_affine_and_head": 137000
+  },
+  {
+    "seed": 2,
+    "schedule": "all64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 50.86000000000001,
+    "ce": 1.4112316370010376,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "seed": 2,
+    "schedule": "all64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 51.1,
+    "ce": 1.4004696607589722,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "seed": 2,
+    "schedule": "all64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 50.96000000000001,
+    "ce": 1.398743987083435,
+    "explicit_scalar_edges": 40960,
+    "routing_cache_bytes": 166400,
+    "resident_bytes_with_affine_and_head": 177960
+  },
+  {
+    "seed": 2,
+    "schedule": "all16",
+    "ks": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "topk_ridge",
+    "accuracy_pct": 45.739999999999995,
+    "ce": 1.5518560409545898,
+    "explicit_scalar_edges": 10240,
+    "routing_cache_bytes": 43520,
+    "resident_bytes_with_affine_and_head": 55080
+  },
+  {
+    "seed": 2,
+    "schedule": "all16",
+    "ks": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "topk_refit_ridge",
+    "accuracy_pct": 47.160000000000004,
+    "ce": 1.5017123222351074,
+    "explicit_scalar_edges": 10240,
+    "routing_cache_bytes": 43520,
+    "resident_bytes_with_affine_and_head": 55080
+  },
+  {
+    "seed": 2,
+    "schedule": "all16",
+    "ks": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "activation_refit_ridge",
+    "accuracy_pct": 48.18,
+    "ce": 1.4758179187774658,
+    "explicit_scalar_edges": 10240,
+    "routing_cache_bytes": 43520,
+    "resident_bytes_with_affine_and_head": 55080
+  }
+]

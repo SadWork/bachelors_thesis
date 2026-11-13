@@ -1,0 +1,43 @@
+{
+  "dataset": "cifar10",
+  "calibration_size": 1536,
+  "calibration_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+  "selection_rows": 512,
+  "budgets": {
+    "all32": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "focus32": [
+      64,
+      32,
+      64,
+      32
+    ],
+    "all64": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "all16": [
+      16,
+      16,
+      16,
+      16
+    ]
+  },
+  "methods": [
+    "topk_ridge",
+    "topk_refit_ridge",
+    "activation_refit_ridge"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "freeze_rule": "Smallest explicit-edge count among activation-aware schedules with at most 1 pp mean validation drop vs teacher. If none qualify, select best activation-aware mean accuracy. Ties resolve by mean validation accuracy, then CE."
+}

@@ -1,0 +1,223 @@
+{
+  "protocol_sha256": "f70b1bed6964fb07923c3f92668f2155234636e3d09956c7399a9a48f06451ff",
+  "rows": [
+    {
+      "seed": 0,
+      "method": "teacher",
+      "split": "validation",
+      "accuracy_pct": 86.26,
+      "ce": 0.3870363235473633,
+      "explicit_scalar_edges": 202240,
+      "routing_cache_bytes": 808960,
+      "resident_bytes_with_affine_and_head": 820520
+    },
+    {
+      "seed": 0,
+      "method": "teacher",
+      "split": "test",
+      "accuracy_pct": 85.61999999999999,
+      "ce": 0.4093043804168701,
+      "explicit_scalar_edges": 202240,
+      "routing_cache_bytes": 808960,
+      "resident_bytes_with_affine_and_head": 820520
+    },
+    {
+      "seed": 0,
+      "method": "topk_ridge",
+      "split": "validation",
+      "accuracy_pct": 85.54,
+      "ce": 0.39675113558769226,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 0,
+      "method": "topk_ridge",
+      "split": "test",
+      "accuracy_pct": 84.91,
+      "ce": 0.4198879301548004,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 0,
+      "method": "topk_refit_ridge",
+      "split": "validation",
+      "accuracy_pct": 85.96000000000001,
+      "ce": 0.3902072310447693,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 0,
+      "method": "topk_refit_ridge",
+      "split": "test",
+      "accuracy_pct": 85.45,
+      "ce": 0.4110187590122223,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 1,
+      "method": "teacher",
+      "split": "validation",
+      "accuracy_pct": 86.53999999999999,
+      "ce": 0.3748997449874878,
+      "explicit_scalar_edges": 202240,
+      "routing_cache_bytes": 808960,
+      "resident_bytes_with_affine_and_head": 820520
+    },
+    {
+      "seed": 1,
+      "method": "teacher",
+      "split": "test",
+      "accuracy_pct": 85.28,
+      "ce": 0.3971453905105591,
+      "explicit_scalar_edges": 202240,
+      "routing_cache_bytes": 808960,
+      "resident_bytes_with_affine_and_head": 820520
+    },
+    {
+      "seed": 1,
+      "method": "topk_ridge",
+      "split": "validation",
+      "accuracy_pct": 86.2,
+      "ce": 0.38097360730171204,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 1,
+      "method": "topk_ridge",
+      "split": "test",
+      "accuracy_pct": 85.21,
+      "ce": 0.4038499891757965,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 1,
+      "method": "topk_refit_ridge",
+      "split": "validation",
+      "accuracy_pct": 86.33999999999999,
+      "ce": 0.38189420104026794,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 1,
+      "method": "topk_refit_ridge",
+      "split": "test",
+      "accuracy_pct": 85.19,
+      "ce": 0.40258660912513733,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 2,
+      "method": "teacher",
+      "split": "validation",
+      "accuracy_pct": 86.1,
+      "ce": 0.3799608647823334,
+      "explicit_scalar_edges": 202240,
+      "routing_cache_bytes": 808960,
+      "resident_bytes_with_affine_and_head": 820520
+    },
+    {
+      "seed": 2,
+      "method": "teacher",
+      "split": "test",
+      "accuracy_pct": 85.89,
+      "ce": 0.4019237458705902,
+      "explicit_scalar_edges": 202240,
+      "routing_cache_bytes": 808960,
+      "resident_bytes_with_affine_and_head": 820520
+    },
+    {
+      "seed": 2,
+      "method": "topk_ridge",
+      "split": "validation",
+      "accuracy_pct": 85.5,
+      "ce": 0.3953936696052551,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 2,
+      "method": "topk_ridge",
+      "split": "test",
+      "accuracy_pct": 85.25,
+      "ce": 0.41926121711730957,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 2,
+      "method": "topk_refit_ridge",
+      "split": "validation",
+      "accuracy_pct": 85.94000000000001,
+      "ce": 0.3843058943748474,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    },
+    {
+      "seed": 2,
+      "method": "topk_refit_ridge",
+      "split": "test",
+      "accuracy_pct": 85.72999999999999,
+      "ce": 0.40593433380126953,
+      "explicit_scalar_edges": 30720,
+      "routing_cache_bytes": 125440,
+      "resident_bytes_with_affine_and_head": 137000
+    }
+  ],
+  "paired_test_accuracy": {
+    "topk_ridge_minus_teacher": {
+      "mean_delta_pp": -0.47333333333333333,
+      "per_seed_delta_pp": [
+        -0.7100000000000001,
+        -0.06999999999999999,
+        -0.64
+      ],
+      "exploratory_interval_95_pp": [
+        -0.8667499999999999,
+        -0.08
+      ]
+    },
+    "topk_refit_ridge_minus_teacher": {
+      "mean_delta_pp": -0.13999999999999999,
+      "per_seed_delta_pp": [
+        -0.16999999999999998,
+        -0.09,
+        -0.16
+      ],
+      "exploratory_interval_95_pp": [
+        -0.31,
+        0.03
+      ]
+    },
+    "topk_refit_ridge_minus_topk_ridge": {
+      "mean_delta_pp": 0.33333333333333337,
+      "per_seed_delta_pp": [
+        0.54,
+        -0.02,
+        0.48
+      ],
+      "exploratory_interval_95_pp": [
+        -0.02,
+        0.7066666666666667
+      ]
+    }
+  }
+}

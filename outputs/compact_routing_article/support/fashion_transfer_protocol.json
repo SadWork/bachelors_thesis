@@ -1,0 +1,23 @@
+{
+  "dataset": "fashion",
+  "schedule": "focus32",
+  "ks": [
+    64,
+    32,
+    64,
+    32
+  ],
+  "methods": [
+    "teacher",
+    "topk_ridge",
+    "topk_refit_ridge"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "calibration_size": 1536,
+  "calibration_hash": "f2fe54ae0be4d238c0a913e4005259e67514b86049c458023dee9ffd6705ea59",
+  "transfer_no_retuning": true
+}

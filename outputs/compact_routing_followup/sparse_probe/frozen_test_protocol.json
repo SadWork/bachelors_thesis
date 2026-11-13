@@ -1,0 +1,18 @@
+{
+  "dataset": "cifar10",
+  "test_split": "original CIFAR-10 test",
+  "checkpoint_family": "logit_pre_r8 best validation checkpoint",
+  "seeds": [0, 1, 2],
+  "configuration": "focus_13",
+  "ks": [128, 64, 128, 64],
+  "methods": ["full", "uniform_tail", "uniform_tail_ridge"],
+  "head_weight_storage": "float16",
+  "head_index_storage": "uint16",
+  "tail_mass_storage": "float32",
+  "ridge_calibration_size": 1536,
+  "ridge_calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+  "ridge_penalty": "1e-6 + 0.01 * mean diagonal of centered H.T @ H",
+  "ridge_target": "unscaled teacher logits",
+  "ridge_prior": "original linear classifier weights",
+  "test_retuning": false
+}

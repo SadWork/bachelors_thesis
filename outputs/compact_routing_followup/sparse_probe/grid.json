@@ -1,0 +1,20 @@
+{
+  "selection_split": "validation only",
+  "checkpoint_family": "logit_pre_r8, best validation accuracy, seed 0, 1, 2",
+  "weight_storage": "float16 for sparse head, float32 for per-row tail mass",
+  "index_storage": "uint16",
+  "configurations": {
+    "full": null,
+    "uniform_k128": [128, 128, 128, 128],
+    "uniform_k64": [64, 64, 64, 64],
+    "focus_13": [128, 64, 128, 64],
+    "focus_24": [64, 128, 64, 128],
+    "moderate_13": [128, 96, 128, 96],
+    "moderate_24": [96, 128, 96, 128],
+    "trim_first_only": [64, 128, 128, 128],
+    "trim_third_only": [128, 128, 64, 128],
+    "trim_second_only": [128, 64, 128, 128],
+    "trim_fourth_only": [128, 128, 128, 64],
+    "aggressive_13": [128, 32, 128, 32]
+  }
+}

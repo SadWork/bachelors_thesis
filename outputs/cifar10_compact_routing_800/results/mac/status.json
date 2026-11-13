@@ -1,0 +1,15 @@
+{
+  "phase": "complete",
+  "completed": [
+    "narrow_dense_r8_s0",
+    "factor_dense_r8_s0",
+    "mixture_post_r8_s0",
+    "mixture_pre_r8_s0",
+    "logit_pre_r8_s0",
+    "narrow_dense_r4_s0",
+    "factor_dense_r4_s0",
+    "mixture_post_r4_s0",
+    "mixture_pre_r4_s0",
+    "logit_pre_r4_s0"
+  ]
+}

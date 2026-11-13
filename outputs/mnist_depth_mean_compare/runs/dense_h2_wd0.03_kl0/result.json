@@ -1,0 +1,32 @@
+{
+  "name": "dense_h2_wd0.03_kl0",
+  "condition": {
+    "model": "dense",
+    "hidden_layers": 2,
+    "width": 160,
+    "decay": 0.03,
+    "kl": 0.0
+  },
+  "seed": 0,
+  "epochs": 500,
+  "parameters": 152970,
+  "best_epoch": 420,
+  "validation_at_best": {
+    "accuracy": 0.9828000068664551,
+    "ce": 0.09461905807256699
+  },
+  "test_at_best": {
+    "accuracy": 0.9836999773979187,
+    "ce": 0.08622675389051437
+  },
+  "minimum_validation_ce": 0.09461905807256699,
+  "minimum_validation_ce_epoch": 420,
+  "validation_at_last": {
+    "accuracy": 0.977400004863739,
+    "ce": 0.1412910670042038
+  },
+  "test_at_last": {
+    "accuracy": 0.9782000184059143,
+    "ce": 0.13553859293460846
+  }
+}

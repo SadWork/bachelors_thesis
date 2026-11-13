@@ -1,0 +1,770 @@
+[
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 47.8,
+    "ce": 1.500287652015686
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 48.5,
+    "ce": 1.4893466234207153
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 49.62,
+    "ce": 1.44137704372406
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 49.419999999999995,
+    "ce": 1.4425629377365112
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 49.58,
+    "ce": 1.4463610649108887
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.080000000000005,
+    "ce": 1.4325487613677979
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.22,
+    "ce": 1.4251508712768555
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.260000000000005,
+    "ce": 1.4253942966461182
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 49.88,
+    "ce": 1.4371498823165894
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.32,
+    "ce": 1.4294565916061401
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.2,
+    "ce": 1.4253413677215576
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.3,
+    "ce": 1.425182819366455
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.12,
+    "ce": 1.431480884552002
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.339999999999996,
+    "ce": 1.430203914642334
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.42,
+    "ce": 1.425042748451233
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 0,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.44,
+    "ce": 1.42520272731781
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 49.919999999999995,
+    "ce": 1.4444539546966553
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.94,
+    "ce": 1.4104946851730347
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 51.300000000000004,
+    "ce": 1.394724726676941
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 51.25999999999999,
+    "ce": 1.3935331106185913
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 51.78,
+    "ce": 1.3892165422439575
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 52.14,
+    "ce": 1.3790065050125122
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 52.26,
+    "ce": 1.378347635269165
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 52.059999999999995,
+    "ce": 1.3778014183044434
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 51.980000000000004,
+    "ce": 1.3783200979232788
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 52.339999999999996,
+    "ce": 1.3785948753356934
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 52.12,
+    "ce": 1.3780187368392944
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 52.2,
+    "ce": 1.3778581619262695
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 52.0,
+    "ce": 1.379516839981079
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 52.28,
+    "ce": 1.3790056705474854
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 52.239999999999995,
+    "ce": 1.3774117231369019
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 1,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 52.18000000000001,
+    "ce": 1.3775845766067505
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 48.5,
+    "ce": 1.5029072761535645
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 49.32,
+    "ce": 1.4526457786560059
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.86000000000001,
+    "ce": 1.4112316370010376
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k64",
+    "ks": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.7,
+    "ce": 1.4141626358032227
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 49.1,
+    "ce": 1.4600812196731567
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.86000000000001,
+    "ce": 1.4089325666427612
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 51.1,
+    "ce": 1.3978533744812012
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "focus_13",
+    "ks": [
+      128,
+      64,
+      128,
+      64
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 51.300000000000004,
+    "ce": 1.3991646766662598
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.9,
+    "ce": 1.410588026046753
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.92,
+    "ce": 1.4051979780197144
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 51.1,
+    "ce": 1.3980389833450317
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "moderate_13",
+    "ks": [
+      128,
+      96,
+      128,
+      96
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 51.12,
+    "ce": 1.3981558084487915
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "uniform_tail",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.88,
+    "ce": 1.4069650173187256
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 50.94,
+    "ce": 1.4058451652526855
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 51.339999999999996,
+    "ce": 1.3973917961120605
+  },
+  {
+    "dataset": "cifar10",
+    "seed": 2,
+    "configuration": "uniform_k128",
+    "ks": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "method": "affine_plus_ridge",
+    "calibration_size": 1536,
+    "calibration_index_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "accuracy_pct": 51.28,
+    "ce": 1.3976372480392456
+  }
+]

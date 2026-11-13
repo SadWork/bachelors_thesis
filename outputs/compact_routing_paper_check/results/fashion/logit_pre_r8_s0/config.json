@@ -1,0 +1,21 @@
+{
+  "dataset": "fashion",
+  "ranks": [
+    8
+  ],
+  "seeds": [
+    0
+  ],
+  "methods": [
+    "full_dense",
+    "factor_dense",
+    "logit_pre",
+    "logit_post"
+  ],
+  "epochs": 500,
+  "device": "mps",
+  "torch": "2.13.0",
+  "learning_rate": 0.003,
+  "decay": 0.01,
+  "batch": 512
+}

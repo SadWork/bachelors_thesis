@@ -1,0 +1,268 @@
+{
+  "seed": 0,
+  "payload_file": "focus32_topk_refit_ridge_seed0.bin",
+  "payload_bytes": 137000,
+  "sha256": "e6e47c8688a66069c1b5434d753d20370b75cfb90fc45a504bf0d3d67dc7adaf",
+  "ks": [
+    64,
+    32,
+    64,
+    32
+  ],
+  "metadata_external": true,
+  "fields": [
+    {
+      "layer": 0,
+      "name": "weight",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 0
+    },
+    {
+      "layer": 0,
+      "name": "bias",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 640
+    },
+    {
+      "layer": 0,
+      "name": "probability",
+      "dtype": "<f2",
+      "shape": [
+        160,
+        64
+      ],
+      "elements": 10240,
+      "bytes": 20480,
+      "offset": 1280
+    },
+    {
+      "layer": 0,
+      "name": "index",
+      "dtype": "<u2",
+      "shape": [
+        160,
+        64
+      ],
+      "elements": 10240,
+      "bytes": 20480,
+      "offset": 21760
+    },
+    {
+      "layer": 0,
+      "name": "tail_mass",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 42240
+    },
+    {
+      "layer": 1,
+      "name": "weight",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 42880
+    },
+    {
+      "layer": 1,
+      "name": "bias",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 43520
+    },
+    {
+      "layer": 1,
+      "name": "probability",
+      "dtype": "<f2",
+      "shape": [
+        160,
+        32
+      ],
+      "elements": 5120,
+      "bytes": 10240,
+      "offset": 44160
+    },
+    {
+      "layer": 1,
+      "name": "index",
+      "dtype": "<u2",
+      "shape": [
+        160,
+        32
+      ],
+      "elements": 5120,
+      "bytes": 10240,
+      "offset": 54400
+    },
+    {
+      "layer": 1,
+      "name": "tail_mass",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 64640
+    },
+    {
+      "layer": 2,
+      "name": "weight",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 65280
+    },
+    {
+      "layer": 2,
+      "name": "bias",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 65920
+    },
+    {
+      "layer": 2,
+      "name": "probability",
+      "dtype": "<f2",
+      "shape": [
+        160,
+        64
+      ],
+      "elements": 10240,
+      "bytes": 20480,
+      "offset": 66560
+    },
+    {
+      "layer": 2,
+      "name": "index",
+      "dtype": "<u2",
+      "shape": [
+        160,
+        64
+      ],
+      "elements": 10240,
+      "bytes": 20480,
+      "offset": 87040
+    },
+    {
+      "layer": 2,
+      "name": "tail_mass",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 107520
+    },
+    {
+      "layer": 3,
+      "name": "weight",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 108160
+    },
+    {
+      "layer": 3,
+      "name": "bias",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 108800
+    },
+    {
+      "layer": 3,
+      "name": "probability",
+      "dtype": "<f2",
+      "shape": [
+        160,
+        32
+      ],
+      "elements": 5120,
+      "bytes": 10240,
+      "offset": 109440
+    },
+    {
+      "layer": 3,
+      "name": "index",
+      "dtype": "<u2",
+      "shape": [
+        160,
+        32
+      ],
+      "elements": 5120,
+      "bytes": 10240,
+      "offset": 119680
+    },
+    {
+      "layer": 3,
+      "name": "tail_mass",
+      "dtype": "<f4",
+      "shape": [
+        160
+      ],
+      "elements": 160,
+      "bytes": 640,
+      "offset": 129920
+    },
+    {
+      "layer": -1,
+      "name": "head_weight",
+      "dtype": "<f4",
+      "shape": [
+        10,
+        160
+      ],
+      "elements": 1600,
+      "bytes": 6400,
+      "offset": 130560
+    },
+    {
+      "layer": -1,
+      "name": "head_bias",
+      "dtype": "<f4",
+      "shape": [
+        10
+      ],
+      "elements": 10,
+      "bytes": 40,
+      "offset": 136960
+    }
+  ],
+  "verified_prediction_rows": 128,
+  "max_logit_error": 0.0
+}

@@ -1,0 +1,9 @@
+dataset,method,seed,parameters,best_epoch,validation_accuracy_pct,validation_ce
+cifar10,factor_dense,0,35786,45,44.66,1.5778056640625
+cifar10,route_hinge,0,35090,30,42.9,1.59033046875
+cifar10,route_linear,0,35786,50,44.04,1.5744359375
+cifar10,signed_hinge,0,35090,40,45.18,1.56256806640625
+fashion,factor_dense,0,17482,235,86.48,0.438980126953125
+fashion,route_hinge,0,18178,80,86.14,0.3984416015625
+fashion,route_linear,0,17482,85,86.9,0.37959638671875
+fashion,signed_hinge,0,18178,75,86.38,0.3884875244140625

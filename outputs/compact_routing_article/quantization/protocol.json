@@ -1,0 +1,8 @@
+{
+  "dataset": "CIFAR-10, original test",
+  "seeds": [0, 1, 2],
+  "controls": ["FP32", "FP16", "2/3/4/8-bit uniform linear", "2/3/4/8-bit uniform log, routing only"],
+  "fixed_log_floor_nats": 12,
+  "evaluation": "Code values dequantized for CPU execution. Stored packed bytes are calculated. This is a storage/accuracy diagnostic, not a low-bit latency benchmark.",
+  "test_retuning": false
+}

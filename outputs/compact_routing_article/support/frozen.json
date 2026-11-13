@@ -1,0 +1,152 @@
+{
+  "protocol": {
+    "dataset": "cifar10",
+    "calibration_size": 1536,
+    "calibration_hash": "76853007b9208ad83777bea0de40367b4b9a957c3c7a29b52df4ae62cfa65a54",
+    "selection_rows": 512,
+    "budgets": {
+      "all32": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "focus32": [
+        64,
+        32,
+        64,
+        32
+      ],
+      "all64": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "all16": [
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    "methods": [
+      "topk_ridge",
+      "topk_refit_ridge",
+      "activation_refit_ridge"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "freeze_rule": "Smallest explicit-edge count among activation-aware schedules with at most 1 pp mean validation drop vs teacher. If none qualify, select best activation-aware mean accuracy. Ties resolve by mean validation accuracy, then CE."
+  },
+  "selected": {
+    "schedule": "focus32",
+    "method": "activation_refit_ridge",
+    "explicit_scalar_edges": 30720,
+    "accuracy_pct": 50.67333333333334,
+    "ce": 1.407953182856242,
+    "delta_vs_teacher_pp": -0.8400000000000011
+  },
+  "validation_summary": [
+    {
+      "schedule": "all32",
+      "method": "topk_ridge",
+      "explicit_scalar_edges": 20480,
+      "accuracy_pct": 48.68666666666667,
+      "ce": 1.463743766148885,
+      "delta_vs_teacher_pp": -2.8266666666666658
+    },
+    {
+      "schedule": "all32",
+      "method": "topk_refit_ridge",
+      "explicit_scalar_edges": 20480,
+      "accuracy_pct": 49.800000000000004,
+      "ce": 1.4339671929677327,
+      "delta_vs_teacher_pp": -1.7133333333333312
+    },
+    {
+      "schedule": "all32",
+      "method": "activation_refit_ridge",
+      "explicit_scalar_edges": 20480,
+      "accuracy_pct": 49.76,
+      "ce": 1.4302148818969727,
+      "delta_vs_teacher_pp": -1.7533333333333327
+    },
+    {
+      "schedule": "focus32",
+      "method": "topk_ridge",
+      "explicit_scalar_edges": 30720,
+      "accuracy_pct": 50.28666666666667,
+      "ce": 1.4219493468602498,
+      "delta_vs_teacher_pp": -1.2266666666666666
+    },
+    {
+      "schedule": "focus32",
+      "method": "topk_refit_ridge",
+      "explicit_scalar_edges": 30720,
+      "accuracy_pct": 50.76,
+      "ce": 1.408525029818217,
+      "delta_vs_teacher_pp": -0.7533333333333374
+    },
+    {
+      "schedule": "focus32",
+      "method": "activation_refit_ridge",
+      "explicit_scalar_edges": 30720,
+      "accuracy_pct": 50.67333333333334,
+      "ce": 1.407953182856242,
+      "delta_vs_teacher_pp": -0.8400000000000011
+    },
+    {
+      "schedule": "all64",
+      "method": "topk_ridge",
+      "explicit_scalar_edges": 40960,
+      "accuracy_pct": 50.593333333333334,
+      "ce": 1.4157778024673462,
+      "delta_vs_teacher_pp": -0.9199999999999969
+    },
+    {
+      "schedule": "all64",
+      "method": "topk_refit_ridge",
+      "explicit_scalar_edges": 40960,
+      "accuracy_pct": 50.906666666666666,
+      "ce": 1.4060509204864502,
+      "delta_vs_teacher_pp": -0.6066666666666668
+    },
+    {
+      "schedule": "all64",
+      "method": "activation_refit_ridge",
+      "explicit_scalar_edges": 40960,
+      "accuracy_pct": 50.76000000000001,
+      "ce": 1.406388243039449,
+      "delta_vs_teacher_pp": -0.753333333333328
+    },
+    {
+      "schedule": "all16",
+      "method": "topk_ridge",
+      "explicit_scalar_edges": 10240,
+      "accuracy_pct": 45.49333333333334,
+      "ce": 1.5551439921061199,
+      "delta_vs_teacher_pp": -6.0200000000000005
+    },
+    {
+      "schedule": "all16",
+      "method": "topk_refit_ridge",
+      "explicit_scalar_edges": 10240,
+      "accuracy_pct": 47.053333333333335,
+      "ce": 1.5027209122975667,
+      "delta_vs_teacher_pp": -4.459999999999998
+    },
+    {
+      "schedule": "all16",
+      "method": "activation_refit_ridge",
+      "explicit_scalar_edges": 10240,
+      "accuracy_pct": 48.093333333333334,
+      "ce": 1.4783303340276082,
+      "delta_vs_teacher_pp": -3.419999999999997
+    }
+  ],
+  "no_test_retuning": true
+}

@@ -1,0 +1,20 @@
+dataset,method,label,source,bytes,storage_description,accuracy_pct,ce,seed0_pct,seed1_pct,seed2_pct
+cifar10,teacher,Exact route cache,support/test_results.json,2287440,FP32 cache,50.583333333333336,1.4100031455357869,49.97,51.07000000000001,50.71
+cifar10,refit,Sparse tail + refit,support/test_results.json,137000,actual packed payload excluding JSON,50.233333333333334,1.419499357541402,49.309999999999995,50.91,50.480000000000004
+cifar10,dense_fp32,Full Dense FP32,quantization/results.json,2282280,weight storage estimate,50.809999999999995,4.011095364888509,50.849999999999994,51.81,49.769999999999996
+cifar10,dense_linear8,Full Dense INT8,quantization/results.json,575120,weight storage estimate,50.74333333333333,4.01451309521993,50.71,51.77,49.75
+cifar10,dense_linear4_ridge,Full Dense INT4 + ridge,quantization/calibrated_matched/results.json,295760,weight storage estimate,49.96333333333333,4.083153963088989,50.42,50.39,49.08
+cifar10,route_codebook2_ridge,Route 2-bit codebook + ridge,quantization/calibrated_matched/results.json,163880,weight storage estimate,48.123333333333335,1.4719963471094768,47.44,48.91,48.02
+cifar10,route_codebook4_ridge,Route 4-bit codebook + ridge,quantization/calibrated_matched/results.json,336680,weight storage estimate,49.98,1.4218789339065552,49.0,50.43,50.51
+fashion,teacher,Exact route cache,support/fashion_transfer_results.json,820520,format size estimate,85.59666666666666,0.40279117226600647,85.61999999999999,85.28,85.89
+fashion,refit,Sparse tail + refit,support/fashion_transfer_results.json,137000,format size estimate,85.45666666666666,0.40651323397954303,85.45,85.19,85.72999999999999
+cifar100,teacher,Exact route cache,independent/eval_frozen/results.json,2342800,format size estimate,20.63,3.353781510416667,20.05,20.65,21.19
+cifar100,refit,Sparse tail + refit,independent/eval_frozen/results.json,194960,format size estimate,20.363333333333333,3.3678071614583334,19.86,20.16,21.07
+cifar100,dense_fp32,Full Dense FP32,independent/eval_frozen/results.json,2340240,format size estimate,21.71,3.4431119791666664,21.54,21.16,22.43
+cifar100,factor_fp32,Factor Dense r8 FP32,independent/eval_frozen/results.json,201104,format size estimate,17.733333333333334,3.5091364583333333,18.27,17.69,17.24
+cifar100,dense_linear4,Full Dense INT4,independent/eval_frozen/results.json,298080,format size estimate,20.936666666666667,3.5078106770833335,20.65,20.880000000000003,21.279999999999998
+cifar100,dense_linear8,Full Dense INT8,independent/eval_frozen/results.json,590240,format size estimate,21.736666666666665,3.4432114583333333,21.57,21.2,22.439999999999998
+cifar10,factor_int8,Factor Dense INT8,matched_dense/eval_cifar10/results.json,137248,weight storage estimate,50.91,1.42436201171875,50.81,51.35999999999999,50.56
+cifar10,factor_int8_ridge,Factor Dense INT8 + ridge,matched_dense/eval_cifar10/results.json,137248,weight storage estimate,50.879999999999995,1.4241812174479167,50.8,51.39,50.449999999999996
+cifar100,factor_int8,Factor Dense INT8,matched_dense/eval_cifar100/results.json,194448,weight storage estimate,23.173333333333332,3.5168704427083335,24.01,22.24,23.27
+cifar100,factor_int8_ridge,Factor Dense INT8 + ridge,matched_dense/eval_cifar100/results.json,194448,weight storage estimate,23.126666666666665,3.517080078125,23.95,22.189999999999998,23.24
