@@ -1,0 +1,83 @@
+\usepackage{fontspec}
+\setsansfont{cmunss.otf}[BoldFont=cmunsx.otf,ItalicFont=cmunsi.otf]
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+\newfontfamily\cyrillicfontsf{cmunss.otf}[BoldFont=cmunsx.otf,ItalicFont=cmunsi.otf]
+\usepackage{booktabs,tabularx,amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\usepackage{array}
+\definecolor{Ink}{HTML}{182636}
+\definecolor{Muted}{HTML}{495D72}
+\definecolor{Route}{HTML}{126A63}
+\definecolor{Trace}{HTML}{2D5C86}
+\definecolor{Rule}{HTML}{CCD8DF}
+\definecolor{Paper}{HTML}{FFFFFF}
+\setbeamercolor{normal text}{fg=Ink,bg=Paper}
+\setbeamercolor{structure}{fg=Route}
+\setbeamercolor{frametitle}{fg=Ink}
+\setbeamercolor{footline}{fg=Muted}
+\setbeamerfont{frametitle}{size=\fontsize{17}{20}\selectfont,series=\bfseries}
+\setbeamersize{text margin left=0.75cm,text margin right=0.75cm}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}{\vspace{0.28cm}\insertframetitle\par\vspace{0.18cm}}
+\setbeamertemplate{footline}{\hfill\usebeamercolor[fg]{footline}\fontsize{7}{8}\selectfont\insertframenumber/\inserttotalframenumber\hspace*{0.75cm}\vspace{0.28cm}}
+\hypersetup{colorlinks=true,urlcolor=Trace}
+\newcommand{\highlight}[1]{{\color{Route}\bfseries #1}}
+\newcommand{\muted}[1]{{\color{Muted}#1}}
+\newcommand{\slidebody}{\fontsize{10.8}{13.8}\selectfont}
+\newcommand{\slidenote}[1]{\par\vspace{0.24cm}{\color{Muted}\fontsize{8.2}{10.5}\selectfont #1\par}}
+\newcommand{\legendmark}[1]{\tikz[baseline=-0.6ex]\fill[#1] (0,0) rectangle (0.18,0.12);}
+\newcommand{\ce}{\operatorname{CE}}
+\newcommand{\relu}{\operatorname{BiReLU}}
+\newcommand{\projecttitle}{Компиляция статической маршрутизации\par с нелинейностью до агрегации}
+\newcommand{\PresenterName}{}
+\newcommand{\PresenterAffiliation}{}
+\newcommand{\presenter}{\ifx\PresenterName\empty\else\vspace{0.45cm}\muted{\PresenterName\ifx\PresenterAffiliation\empty\else\par\PresenterAffiliation\fi}\fi}
+
+\newcommand{\maindiagram}{%
+\begin{tikzpicture}[x=1cm,y=1cm,
+  edge/.style={draw=Muted,-{Latex[length=1.8mm]},line width=0.52pt},
+  token/.style={font=\fontsize{9.5}{12}\selectfont,align=center,text=Ink},
+  routepart/.style={token,text=Route},
+  exactpart/.style={token,text=Trace}]
+  \node[token] (x) at (0,0) {Входы\\$x_1,\ldots,x_N$};
+  \node[routepart] (stats) at (3.15,0.74) {Общие статистики\\по интервалам};
+  \node[exactpart] (select) at (3.15,-0.74) {Входы явных\\маршрутов $S_m$};
+  \node[routepart] (tail) at (6.85,0.74) {Сумма BiReLU\\по порогу $-b_m/w_m$};
+  \node[exactpart] (correction) at (6.85,-0.74) {Поправка для\\явных маршрутов};
+  \node[token] (out) at (10.2,0) {Выход\\$h_m^Q(x)$};
+  \draw[edge] (x.east) -- ++(0.33,0) |- (stats.west);
+  \draw[edge] (x.east) -- ++(0.33,0) |- (select.west);
+  \draw[edge,Route] (stats.east) -- (tail.west);
+  \draw[edge,Trace] (select.east) -- (correction.west);
+  \draw[edge] (tail.east) -- ++(0.3,0) |- (out.west);
+  \draw[edge] (correction.east) -- ++(0.3,0) |- (out.west);
+\end{tikzpicture}}
+
+\newcommand{\oneslidecontent}{%
+\slidebody
+Слой усредняет отклики BiReLU по обученным вероятностям маршрутов.
+При выводе компилятор хранит явные маршруты и остаточную массу групп.
+\par\vspace{0.4cm}
+\centering\maindiagram\par
+\vspace{0.46cm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.31\textwidth}
+{\color{Route}\fontsize{25}{28}\selectfont\bfseries $2{,}81\times$}\par
+быстрее точного кеша
+\end{column}
+\begin{column}{0.31\textwidth}
+{\color{Route}\fontsize{25}{28}\selectfont\bfseries $10{,}3\times$}\par
+меньше явной памяти
+\end{column}
+\begin{column}{0.31\textwidth}
+{\color{Route}\fontsize{25}{28}\selectfont\bfseries $-0{,}35$}\par
+п.п. точности на тесте
+\end{column}
+\end{columns}
+\raggedright
+\slidenote{База сравнения — исходная маршрутизирующая сеть с точным кешем.
+CIFAR-10, точность по трём запускам. Замеры Apple M3 Pro CPU, FP32, batch 1, seed 0.}
+}

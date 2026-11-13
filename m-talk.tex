@@ -1,0 +1,177 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+\input{common}
+\hypersetup{pdftitle={M-talk. Компиляция статической маршрутизации с нелинейностью до агрегации}}
+\begin{document}
+
+\begin{frame}[plain]
+\vspace{0.65cm}
+{\fontsize{22}{26}\selectfont\bfseries\projecttitle\par}
+\vspace{0.62cm}
+{\fontsize{12}{16}\selectfont
+Цель исследования — ускорить вывод обученного слоя\par
+с индивидуальными порогами нейронов\par
+и измерить изменение качества и памяти.\par}
+\presenter
+\end{frame}
+
+\begin{frame}[t]{Общие статистики для индивидуальных порогов}
+\oneslidecontent
+\end{frame}
+
+\begin{frame}[t]{Статические маршруты и агрегация хвоста}
+\slidebody
+\renewcommand{\arraystretch}{1.42}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4.4cm}X@{}}
+\toprule
+\textbf{Близкая работа} & \textbf{Используемая идея} \\
+\midrule
+\href{https://proceedings.mlr.press/v139/tay21a.html}{Synthesizer, 2021} & Статические факторизованные логиты \\
+\href{https://arxiv.org/abs/2404.19756}{KAN, 2025} и \href{https://arxiv.org/abs/2602.03879}{TruKAN, 2026} & Одномерные функции перед суммой \\
+\href{https://proceedings.mlr.press/v235/ribar24a.html}{SparQ, 2024} и \href{https://arxiv.org/abs/2610.30951}{OpenAttention, 2026} & Агрегация отброшенной части внимания \\
+\bottomrule
+\end{tabularx}
+\par\vspace{0.46cm}
+\highlight{Вклад работы}\par
+Компиляция сжатого статического слоя. Нейроны с разными порогами
+BiReLU читают одни и те же статистики группы.
+\end{frame}
+
+\begin{frame}[t]{Слой средних и критерии сравнения}
+\slidebody
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.58\textwidth}
+\highlight{Обучаемый слой}
+\[
+ h_m^P(x)=\sum_i p_{mi}\,g(w_mx_i+b_m)
+\]
+\[
+ g(u)=\tfrac12u+\tfrac32\max(u,0)
+\]
+Пара $w_m,b_m$ общая для всех входов нейрона $m$.
+Строка $P$ задаёт вероятности входных координат.
+\end{column}
+\begin{column}{0.36\textwidth}
+\highlight{Критерии}\par\vspace{0.15cm}
+Точность и кросс-энтропия\par\vspace{0.2cm}
+Память массивов и рабочих буферов\par\vspace{0.2cm}
+Задержка полного вывода
+\end{column}
+\end{columns}
+\vspace{0.32cm}
+\slidenote{Чекпойнты выбираются по валидационной точности. Коэффициенты сжатия подгоняются на обучающем разбиении. Тест служит для итоговой оценки.}
+\end{frame}
+
+\begin{frame}[t]{Сжатие вероятностей и точное вычисление}
+\slidebody
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.46\textwidth}
+\highlight{Офлайн}\par\vspace{0.12cm}
+Сохраняем top-$K$ маршрутов.\par
+Остаточную массу равномерно распределяем по отброшенным входам каждой группы.
+\end{column}
+\begin{column}{0.46\textwidth}
+\highlight{На каждом объекте}\par\vspace{0.12cm}
+Считаем число и сумму значений по обе стороны порога. Добавляем поправку для явных маршрутов.
+\end{column}
+\end{columns}
+\vspace{0.23cm}
+\[
+ \sum_{i\in G} g(w_mx_i+b_m)
+ =\tfrac12(w_ms+b_mn)+\tfrac32(w_ms_++b_mn_+).
+\]
+\slidenote{$n,s$ — число и сумма значений группы. $n_+,s_+$ — те же статистики для $w_mx_i+b_m>0$.}
+\vspace{0.15cm}
+\highlight{Исполнитель точно вычисляет сжатую модель $Q$ с учётом округления.}\par
+Потерю при замене исходных вероятностей $P$ на $Q$ измеряем отдельно.
+\end{frame}
+
+\begin{frame}[t]{Полные модели близки по точности на CIFAR-10}
+\slidebody
+\renewcommand{\arraystretch}{1.36}
+\begin{tabularx}{\textwidth}{@{}Xrrr@{}}
+\toprule
+\textbf{Набор} & \textbf{Скрытых слоёв} & \textbf{Dense} & \textbf{Средние до суммы} \\
+\midrule
+MNIST & 2 & 98,00 & 95,49 \\
+MNIST & 4 & 98,28 & 95,99 \\
+CIFAR-10 & 3 & 50,60 & 50,31 \\
+CIFAR-10 & 4 & 50,58 & 51,67 \\
+\bottomrule
+\end{tabularx}
+\slidenote{Точность на тесте, \%. Чекпойнты выбраны по валидации, один seed. Бюджеты 500 эпох на MNIST и 2000 на CIFAR-10.}
+\end{frame}
+
+\begin{frame}[t]{При ранге 8 оба порядка BiReLU опередили Factor Dense на CIFAR}
+\slidebody
+\renewcommand{\arraystretch}{1.36}
+\begin{tabularx}{\textwidth}{@{}Xrrrr@{}}
+\toprule
+\textbf{Набор} & \textbf{Эпох} & \textbf{Factor Dense} & \textbf{До суммы} & \textbf{После суммы} \\
+\midrule
+CIFAR-10 & 800 & 44,60 & \highlight{49,12} & 48,46 \\
+Fashion-MNIST & 500 & 85,92 & 85,60 & \highlight{85,94} \\
+CIFAR-100 & 400 & 17,73 & \highlight{20,63} & 20,07 \\
+\bottomrule
+\end{tabularx}
+\slidenote{Точность на тесте, \%, среднее по трём запускам. В каждой строке близкое число параметров.
+Ранг относится к весам Dense и к логитам маршрутизации соответственно.}
+\vspace{0.4cm}
+На CIFAR-10 к 1200 эпохам полный Dense дал 50,81\%, компактная модель до суммы — 50,58\%. Число параметров уменьшилось с 570\,570 до 36\,426.
+\end{frame}
+
+\begin{frame}[t]{Потеря точности при сжатии — до 0,35 п.п.}
+\slidebody
+\renewcommand{\arraystretch}{1.33}
+\begin{tabularx}{\textwidth}{@{}Xrrr@{}}
+\toprule
+\textbf{Набор} & \textbf{Точный кеш} & \textbf{Сжатая сеть} & \textbf{Разница, п.п.} \\
+\midrule
+CIFAR-10 & 50,58\% & 50,23\% & $-0{,}35$ \\
+Fashion-MNIST & 85,60\% & 85,46\% & $-0{,}14$ \\
+CIFAR-100 & 20,63\% & 20,36\% & $-0{,}27$ \\
+\bottomrule
+\end{tabularx}
+\slidenote{Точность на тесте, три запуска. Бюджет $K=(64,32,64,32)$ выбран на CIFAR-10.
+Подгонка коэффициентов и линейной шапки использует 1536 обучающих изображений каждого набора.}
+\vspace{0.25cm}
+\highlight{Контроль нелинейности на Fashion-MNIST}\par
+При одинаковых маршрутах и массах хвоста точная сумма BiReLU дала
+85,79\% на валидации, BiReLU от среднего хвоста — 83,43\%.
+\end{frame}
+
+\begin{frame}[t]{На CPU сжатая сеть быстрее собственного точного кеша}
+\slidebody
+\renewcommand{\arraystretch}{1.27}
+\begin{tabularx}{\textwidth}{@{}Xrrr@{}}
+\toprule
+\textbf{Исполнитель FP32} & \textbf{Batch 1, мкс} & \textbf{Batch 128, мс} & \textbf{Память, байт} \\
+\midrule
+Точный кеш маршрутов & 59,92 & 6,435 & $\approx$2\,288\,760 \\
+Сжатый, сортировка & 24,72 & 2,730 & 209\,172 \\
+Сжатый, интервалы порогов & \highlight{21,29} & 2,277 & \highlight{221\,460} \\
+Dense, Accelerate & 13,78 & 0,198 & 2\,283\,600 \\
+\bottomrule
+\end{tabularx}
+\slidenote{CIFAR-10, seed 0, Apple M3 Pro CPU. Медиана за пакет.
+Память включает хранимые массивы и явные рабочие буферы для batch 1.}
+\vspace{0.3cm}
+Сжатый исполнитель сохранил все 10\,000 предсказаний \emph{сжатой} формулы на тесте для seed 0.
+\end{frame}
+
+\begin{frame}[t]{Компиляция полезна для фиксированной маршрутизирующей сети}
+\slidebody
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\textwidth}{@{}p{3.15cm}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Сравнение} & \textbf{Вывод} \\
+\midrule
+С точным кешем & В 2,81 раза быстрее и в 10,3 раза меньше явной памяти при batch 1. \\
+На трёх наборах & Потеря тестовой точности после сжатия от 0,14 до 0,35 п.п. \\
+С Dense & Оптимизированный FP32 Dense быстрее. При близком объёме хранения Factor Dense INT8 точнее на CIFAR-10 и CIFAR-100. \\
+\bottomrule
+\end{tabularx}
+\par\vspace{0.4cm}
+\highlight{Дальнейшая проверка}\par
+Повторить замеры на другом CPU и проверить слои с несколькими порогами.
+\end{frame}
+\end{document}
