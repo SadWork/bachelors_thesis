@@ -65,6 +65,67 @@ BiReLU читают одни и те же статистики группы.
 \slidenote{Чекпойнты выбираются по валидационной точности. Коэффициенты сжатия подгоняются на обучающем разбиении. Тест служит для итоговой оценки.}
 \end{frame}
 
+\begin{frame}[t]{Как ускоряется вывод на одном патче}
+\slidebody
+\centering
+\begin{tikzpicture}[
+  cell/.style={draw=Rule,minimum width=0.72cm,minimum height=0.53cm,inner sep=0pt,
+    font=\fontsize{9}{11}\selectfont},
+  kept/.style={draw=Trace,very thick,font=\fontsize{9}{11}\selectfont\bfseries},
+  heading/.style={font=\fontsize{10.6}{13}\selectfont\bfseries,anchor=west},
+  caption/.style={anchor=west,text=Muted,font=\fontsize{8.5}{10.5}\selectfont},
+  edge/.style={draw=Muted,-{Latex[length=2mm]},semithick}]
+  \node[heading] at (0,0) {Интенсивности};
+  \node[heading] at (3.65,0) {Вероятности нейрона};
+  \node[heading,text=Route] at (8.15,0) {После сжатия};
+  \foreach \i/\j/\value/\shade in {
+    0/0/20/15,1/0/40/25,2/0/70/36,
+    0/1/80/40,1/1/100/46,2/1/130/65,
+    0/2/160/76,1/2/220/88,2/2/230/93}{
+    \ifnum\shade>55
+      \node[cell,fill=black!\shade,text=white] at ({0.36+0.72*\i},{-0.60-0.53*\j}) {\value};
+    \else
+      \node[cell,fill=black!\shade] at ({0.36+0.72*\i},{-0.60-0.53*\j}) {\value};
+    \fi
+  }
+  \foreach \i/\j/\prob in {
+    0/0/04,1/0/07,2/0/28,
+    0/1/05,1/1/10,2/1/03,
+    0/2/09,1/2/22,2/2/12}{
+    \node[cell,fill=Trace!\prob] at ({4.01+0.72*\i},{-0.60-0.53*\j}) {$0{,}\prob$};
+  }
+  \foreach \i in {0,1,2}{
+    \foreach \j in {0,1,2}{
+      \node[cell,fill=Route!10,text=Route] at ({8.51+0.72*\i},{-0.60-0.53*\j}) {$c$};
+    }
+  }
+  \foreach \i/\j/\prob in {2/0/28,1/2/22}{
+    \node[cell,kept] at ({0.36+0.72*\i},{-0.60-0.53*\j}) {};
+    \node[cell,kept,fill=Trace!20] at ({4.01+0.72*\i},{-0.60-0.53*\j}) {$0{,}\prob$};
+    \node[cell,kept,fill=Trace!20] at ({8.51+0.72*\i},{-0.60-0.53*\j}) {$0{,}\prob$};
+  }
+  \draw[edge] (6.12,-1.13) -- (7.72,-1.13);
+  \node[caption] at (0,-2.12) {Условный патч $3\times3$};
+  \node[caption,text=Trace] at (3.65,-2.12) {Синим — явные маршруты};
+  \node[caption,text=Route] at (8.15,-2.12) {Семь вероятностей заменяем на $c=0{,}50/7$};
+\end{tikzpicture}
+\par\vspace{0.20cm}
+\raggedright
+\highlight{Один раз на патч считаем число пикселей и сумму по интервалам.}\par
+\vspace{0.16cm}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabularx}{\textwidth}{@{}Xccc@{}}
+\toprule
+Интервал интенсивностей & $x\leq90$ & $90<x\leq170$ & $x>170$ \\
+Число и сумма & $4,\ 210$ & $3,\ 390$ & $2,\ 450$ \\
+\bottomrule
+\end{tabularx}
+\vspace{0.15cm}
+
+При $w>0$ нейрон с порогом 90 берёт две правые колонки, с порогом 170 — одну.
+Для каждого нейрона вычисляем BiReLU по отдельности только на его явных маршрутах.
+\end{frame}
+
 \begin{frame}[t]{Сжатие вероятностей и точное вычисление}
 \slidebody
 \begin{columns}[T,onlytextwidth]
